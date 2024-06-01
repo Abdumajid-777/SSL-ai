@@ -1,16 +1,15 @@
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: "auto",
-    centeredSlides: true,
-    spaceBetween: 30,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
+    watchSlidesProgress: true,
+    slidesPerView: 3,
 });
-// let arrowBtn = document.querySelector("#arrowBtn")
-// let shrink = document.querySelector("#shrink")
 
+let overflowBtn = document.querySelectorAll("#arrow")
+let overflowBox = document.querySelectorAll("#overflow")
 
-// arrowBtn.addEventListener('click' , function(){
-//     shrink.classList.toggle("")
-// })
+overflowBtn.forEach(function (item, index) {
+    item.addEventListener('click', function () {
+        overflowBox[index].classList.toggle("hidden")
+    })
+    // overflowBox[index].classList.toggle("hidden")
+    // overflowBox[index].classList.remove("flex")
+})
