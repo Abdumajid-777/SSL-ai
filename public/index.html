@@ -12,7 +12,7 @@
 
 <body class="">
     <div class=""></div>
-    <div class="hidden fixed w-full h-screen flex top-0 left-0 bg-[#0000004D]">
+    <div class="fixed hidden w-full h-screen top-0 left-0 bg-[#0000004D]">
         <div class="flex gap-4 bg-white max-w-[588px] rounded-2xl my-auto mx-auto">
             <div class="pt-6 pb-4 pl-4 pr-4">
                 <h2 class="text-[#091D37] font-semibold text-4xl leading-10 mb-6">Оставить <br> заявку</h2>
@@ -40,13 +40,46 @@
                 <a class="font-semibold text-[#091D37] text-3xl leading-7" href="#">SSL <span
                         class="text-[#A6B4C7] text-xl leading-5">/</span><span class="text-xl leading-5">AI</span></a>
                 <button class="">
-                    <img src="./img/header/hamburger.png" alt="">
+                    <img id="hamburgerMenu" src="./img/header/hamburger.png" alt="">
                 </button>
             </div>
             <img src="./img/hero/brain2.png" alt="">
         </header>
+        <div style="transition: .5s all;" id="responsiveBox" class="bg-blue-500 z-10 h-screen fixed top-0 w-full py-6 mx-auto px-4 -right-full">
+            <div class="flex items-center justify-between mb-10 border-b p-x-10 pb-10">
+                <a class="font-semibold text-white text-3xl leading-7" href="#">SSL <span
+                        class="text-[#A6B4C7] text-xl leading-5">/</span><span class="text-xl leading-5">AI</span></a>
+                <a id="closeMenu" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="currentColor" class="size-6 text-white">
+                        <path fill-rule="changeColor"
+                            d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"
+                            clip-rule="changeColor" />
+                    </svg>
+                </a>
+            </div>
+            <ul class="text-center flex flex-col gap-5">
+                <li class="">
+                    <a class="text-white text-sm font-medium leading-4 pb-4 border-b" href="index1.html">Услуги</a>
+                </li>
+                <li class="">
+                    <a class="text-white text-sm font-medium leading-4 pb-4 border-b" href="index2.html">О нас</a>
+                </li>
+                <li class="">
+                    <a class="text-white text-sm font-medium leading-4 pb-4 border-b" href="#">Блог</a>
+                </li>
+                <li class="">
+                    <a class="text-white text-sm font-medium leading-4 pb-4 border-b" href="#">Контакты</a>
+                </li>
+            </ul>
+            <div class="flex gap-3 justify-center md:gap-4 mt-5">
+                <a href="https://www.instagram.com/shifo_nur_koz_klinika/" target="_blank"><img
+                        class="md:w-10 w-8 rounded-xl" src="./img/footer/whatsUp.jpg" alt=""></a>
+                <a target="_blank" href="https://t.me/bibixonimshifo"><img class="md:w-10 w-8"
+                        src="./img/footer/telegram.png" alt=""></a>
+            </div>
+        </div>
     </div>
-    <section class="pt-6 pb-12 pl-4 pr-1 md:hidden flex flex-col">
+    <section class="pt-6 pb-12 px-4 md:pl-4 md:pr-1 md:hidden flex flex-col">
         <h1 class="mb-4 w-[290px] font-semibold text-[28px] leading-7 text-[#091D37]">
             Разработка искусственного интеллекта (AI)
             для вашего бизнеса
@@ -58,7 +91,7 @@
             требований вашего бизнеса
         </p>
         <button
-            class="py-[18px] px-12 hover:text-[#006AFF] hover:bg-white font-semibold text-base leading-7 rounded-2xl border border-[#006AFF] bg-[#006AFF] text-white transition-all">Получить
+            class="px-[40px] py-[18px] md:px-12 hover:text-[#006AFF] hover:bg-white font-semibold text-base leading-7 rounded-2xl border border-[#006AFF] bg-[#006AFF] text-white transition-all">Получить
             консультацию</button>
     </section>
     <div style="background-image: url(./img/header/Eye.png);" class="bg-cover md:flex flex-col hidden">
