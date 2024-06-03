@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,29 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
-<body>
+<body class="">
+    <div class=""></div>
+    <div class="hidden fixed w-full h-screen flex top-0 left-0 bg-[#0000004D]">
+        <div class="flex gap-4 bg-white max-w-[588px] rounded-2xl my-auto mx-auto">
+            <div class="pt-6 pb-4 pl-4 pr-4">
+                <h2 class="text-[#091D37] font-semibold text-4xl leading-10 mb-6">Оставить <br> заявку</h2>
+                <form class="mb-12" action="">
+                    <label for="inp1" class="text-[#091D37] mb-2 opacity-60 flex flex-col">
+                        Имя
+                    </label>
+                    <input class="border mb-6 border-[#D9D9D9] rounded-lg w-[268px] py-2.5 pl-4" id="inp1"
+                        placeholder="Ваше имя" type="text"> <br>
+                    <label class="text-[#091D37] mb-2 opacity-60 flex flex-col" for="inp2">
+                        Телефон
+                    </label>
+                    <input class="border border-[#D9D9D9] rounded-lg w-[268px] py-2.5 pl-4" id="inp2" type="number">
+                </form>
+                <button class="py-[18px] bg-[#006AFF] text-white rounded-lg px-[55px] font-semibold text-lg">Отправить
+                    заявку</button>
+            </div>
+            <img src="./img/header/beautiful.png" class="w-[288px] rounded-2xl md:flex hidden" alt="">
+        </div>
+    </div>
     <div style="background-image: url(./img/header/Eye2.png); background-position: center;"
         class="bg-cover rounded-2xl md:hidden flex-col flex">
         <header class="py-4 px-4">
@@ -1136,8 +1158,10 @@
                         class="text-[#091D37] mb-3 md:mb-4 flex text-2xl md:text-4xl font-semibold">8 (995)
                         295-00-55</a>
                     <div class="flex gap-3 md:gap-4">
-                        <a href="#"><img class="md:w-10 w-8" src="./img/footer/whatsUp.png" alt=""></a>
-                        <a href="#"><img class="md:w-10 w-8" src="./img/footer/telegram.png" alt=""></a>
+                        <a href="https://www.instagram.com/shifo_nur_koz_klinika/" target="_blank"><img
+                                class="md:w-10 w-8 rounded-xl" src="./img/footer/whatsUp.jpg" alt=""></a>
+                        <a target="_blank" href="https://t.me/bibixonimshifo"><img class="md:w-10 w-8"
+                                src="./img/footer/telegram.png" alt=""></a>
                     </div>
                 </div>
             </div>
