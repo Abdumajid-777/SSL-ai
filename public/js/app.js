@@ -1,7 +1,3 @@
-var swiper = new Swiper(".mySwiper", {
-    watchSlidesProgress: true,
-    slidesPerView: 3,
-});
 
 let overflowBtn = document.querySelectorAll("#arrow")
 let overflowBox = document.querySelectorAll("#overflow")
