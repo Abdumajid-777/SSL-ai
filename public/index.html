@@ -20,17 +20,17 @@
                     <label for="inp1" class="text-[#091D37] mb-2 opacity-60 flex flex-col">
                         Имя
                     </label>
-                    <input class="border mb-6 border-[#D9D9D9] rounded-lg w-[268px] py-2.5 pl-4" id="inp1"
+                    <input class="border mb-6 border-[#D9D9D9] rounded-lg max-w-[268px] py-2.5 pl-4" id="inp1"
                         placeholder="Ваше имя" type="text"> <br>
                     <label class="text-[#091D37] mb-2 opacity-60 flex flex-col" for="inp2">
                         Телефон
                     </label>
-                    <input class="border border-[#D9D9D9] rounded-lg w-[268px] py-2.5 pl-4" id="inp2" type="number">
+                    <input class="border border-[#D9D9D9] rounded-lg max-w-[268px] py-2.5 pl-4" id="inp2" type="number">
                 </form>
                 <button class="py-[18px] bg-[#006AFF] text-white rounded-lg px-[55px] font-semibold text-lg">Отправить
                     заявку</button>
             </div>
-            <img src="./img/header/beautiful.png" class="w-[288px] rounded-2xl md:flex hidden" alt="">
+            <img src="./img/header/beautiful.png" class="max-w-[288px] rounded-2xl md:flex hidden" alt="">
         </div>
     </div>
     <div style="background-image: url(./img/header/Eye2.png); background-position: center;"
@@ -81,7 +81,7 @@
         </div>
     </div>
     <section class="pt-6 pb-12 px-4 md:pl-4 md:pr-1 md:hidden flex flex-col">
-        <h1 class="mb-4 w-[290px] font-semibold text-[28px] leading-7 text-[#091D37]">
+        <h1 class="mb-4 max-w-[290px] font-semibold text-[28px] leading-7 text-[#091D37]">
             Разработка искусственного интеллекта (AI)
             для вашего бизнеса
             и автоматизация бизнес процессов
@@ -145,16 +145,16 @@
                 искусственного интеллекта <br>
                 и машинного обучения</h2>
             <div class="grid grid-cols-1 gap-y-6">
-                <div class="flex gap-6">
-                    <div class="md:px-6 pt-8 pb-4 bg-white md:bg-[#F1F3F6] max-w-[792px] rounded-3xl">
-                        <img class="mb-2 md:mb-10 md:w-[56px] w-8" src="./img/section/Eye.png" alt="">
+                <div class="md:grid grid-cols-3 gap-6">
+                    <div class="md:px-6 pt-8 pb-4 bg-white md:bg-[#F1F3F6] col-span-2 rounded-3xl">
+                        <img class="mb-2 md:mb-10 md:max-w-[56px] w-8 shrink-0" src="./img/section/Eye.png" alt="">
                         <h3
-                            class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:w-[744px]">
+                            class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:max-w-[744px]">
                             Компьютерное <br class="md:hidden flex"> зрение <img id="arrowBtn"
                                 class="md:hidden flex cursor-pointer w-8" src="./img/section/Btn.png" alt="">
                         </h3>
                         <p id="shrink"
-                            class="md:hidden flex line-clamp-0 leading font-medium text-sm text-[#7D8896] pb-4 border-b border-[#D9D9D9]">
+                            class="md:hidden flex line-clamp-0 leading font-medium text-sm text-[#7D8896] w-full pb-4 border-b border-[#D9D9D9]">
                             Компьютерное зрение представляет собой разработку и внедрение инновационных систем...
                         </p>
                         <p class="md:flex hidden text-[#37485D] font-medium text-lg leading-7 mb-8">Компьютерное зрение
@@ -166,26 +166,25 @@
                             различных
                             областях человеческой деятельности.</p>
                         <button
-                            class="hidden md:flex gap-[2px] border border-[#006AFF] rounded-3xl items-center px-[278px] py-4 text-[#006AFF] font-semibold text-lg leading-7">
+                            class="hidden md:flex gap-[2px] border border-[#006AFF] justify-center rounded-3xl items-center w-full text-center py-4 text-[#006AFF] font-semibold text-lg leading-7">
                             <img class="w-8" src="./img/section/arrow.png" alt="">
                             Обсудить проект
                         </button>
                     </div>
-                    <img src="./img/section/People-in-Eye.png" class="w-[384px] md:flex hidden" alt="">
+                    <img src="./img/section/People-in-Eye.png" class="w-full col-span-1 md:flex hidden" alt="">
                 </div>
-                <div class="flex gap-6">
-                    <img src="./img/section/chemistry.png" class="w-[384px] md:flex hidden" alt="">
-                    <div class="md:px-6 pt-8 pb-4 bg-white md:bg-[#F1F3F6] max-w-[792px] rounded-3xl">
-                        <img class="mb-2 md:mb-10 md:w-[56px] w-8" src="./img/section/1.png" alt="">
+                <div class="md:grid grid-cols-3 gap-6">
+                    <img src="./img/section/chemistry.png" class="w-full col-span-1 md:flex hidden" alt="">
+                    <div class="md:px-6 pt-8 pb-4 bg-white md:bg-[#F1F3F6] col-span-2 rounded-3xl">
+                        <img class="mb-2 md:mb-10 md:max-w-[56px] w-8 shrink-0" src="./img/section/1.png" alt="">
                         <h3
-                            class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:w-[744px]">
+                            class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:max-w-[744px]">
                             Автоматизация <br class="md:hidden flex"> процессов <img id="arrowBtn"
-                                class="md:hidden flex flex-col cursor-pointer w-8" src="./img/section/Btn.png" alt="">
+                                class="md:hidden flex cursor-pointer w-8" src="./img/section/Btn.png" alt="">
                         </h3>
                         <p id="shrink"
-                            class="md:hidden flex flex-col fo0t-medium text-sm text-[#7D8896] pb-4 border-b border-[#D9D9D9]">
-                            Благодаря автоматизации, компании могут существенно сократить временные затраты на
-                            выполнение задач...
+                            class="md:hidden flex line-clamp-0 leading font-medium text-sm text-[#7D8896] pb-4 border-b border-[#D9D9D9]">
+                            Компьютерное зрение представляет собой разработку и внедрение инновационных систем...
                         </p>
                         <p class="md:flex hidden text-[#37485D] font-medium text-lg leading-7 mb-8">Благодаря
                             автоматизации, компании могут существенно сократить временные затраты на выполнение задач и
@@ -194,52 +193,50 @@
                             Оптимизация бизнес-процессов через внедрение автоматизированных систем – это незаменимый шаг
                             в стремлении компании к успеху и устойчивому развитию.</p>
                         <button
-                            class="hidden md:flex gap-[2px] border border-[#006AFF] rounded-3xl items-center px-[278px] py-4 text-white bg-[#006AFF] font-semibold text-lg leading-7">
-                            <img class="w-8" src="./img/section/arrowTop.png" alt="">
+                            class="hidden md:flex gap-[2px] border border-[#006AFF] justify-center rounded-3xl items-center w-full text-center py-4 text-[#006AFF] font-semibold text-lg leading-7">
+                            <img class="w-8" src="./img/section/arrow.png" alt="">
                             Обсудить проект
                         </button>
                     </div>
                 </div>
-                <div class="flex justify-between">
-                    <div class="md:px-6 pt-8 pb-4 bg-white md:bg-[#F1F3F6] max-w-[792px] rounded-3xl">
-                        <img class="mb-2 md:mb-10 md:w-[56px] w-8" src="./img/section/Music1.png" alt="">
+                <div class="md:grid grid-cols-3">
+                    <div class="md:px-6 pt-8 pb-4 bg-white md:bg-[#F1F3F6] col-span-2 rounded-3xl">
+                        <img class="mb-2 md:mb-10 md:max-w-[56px] w-8 shrink-0" src="./img/section/Music1.png" alt="">
                         <h3
-                            class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:w-[744px]">
-                            Распознавание речи <br class="md:flex hidden"> и голосовой ассистент <img id="arrowBtn"
+                            class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:max-w-[744px]">
+                            Распознавание речи <br class="md:hidden flex"> <br class="md:flex hidden"> и голосовой ассистент <img id="arrowBtn"
                                 class="md:hidden flex cursor-pointer w-8" src="./img/section/Btn.png" alt="">
                         </h3>
                         <p id="shrink"
-                            class="md:hidden flex line-clamp-0 font-medium text-sm text-[#7D8896] pb-4 border-b border-[#D9D9D9]">
-                            Разработка голосовых помощников также отличается от других областей программирования своей
-                            сложностью...
+                            class="md:hidden flex line-clamp-0 leading font-medium text-sm text-[#7D8896] pb-4 border-b border-[#D9D9D9]">
+                            Компьютерное зрение представляет собой разработку и внедрение инновационных систем...
                         </p>
-                        <p class="md:flex hidden text-[#37485D] font-medium text-lg leading-7 mb-5">Разработка голосовых
+                        <p class="md:flex hidden text-[#37485D] font-medium text-lg leading-7 mb-8">Разработка голосовых
                             помощников также отличается от других областей программирования своей сложностью и требует
                             глубокого понимания особенностей человеческой речи. Но именно в этой сложности кроется
                             огромный потенциал возможностей для создания уникальных и полезных голосовых помощников,
                             которые будут изменять и улучшать нашу повседневную жизнь.</p>
                         <button
-                            class="hidden md:flex gap-[2px] border border-[#006AFF] rounded-3xl items-center px-[278px] py-4 text-[#006AFF] font-semibold text-lg leading-7">
+                            class="hidden md:flex gap-[2px] border border-[#006AFF] justify-center rounded-3xl items-center w-full text-center py-4 text-[#006AFF] font-semibold text-lg leading-7">
                             <img class="w-8" src="./img/section/arrow.png" alt="">
                             Обсудить проект
                         </button>
                     </div>
-                    <img src="./img/section/Music.png" class="w-[232px] md:flex hidden" alt="">
+                    <img src="./img/section/Music.png" class="w-full max-w-[232px] col-span-1 ml-auto md:flex hidden" alt="">
                 </div>
-                <div class="flex justify-between">
-                    <img src="./img/section/Girl.png" class="w-[384px] md:flex hidden" alt="">
-                    <div class="md:px-6 pt-8 pb-4 bg-white md:bg-[#F1F3F6] max-w-[792px] rounded-3xl">
-                        <img class="mb-2 md:mb-10 md:w-[56px] w-8" src="./img/section/n1.png" alt="">
+                <div class="md:grid grid-cols-3 gap-6">
+                    <img src="./img/section/Girl.png" class="w-full col-span-1 md:flex hidden" alt="">
+                    <div class="md:px-6 pt-8 pb-4 bg-white md:bg-[#F1F3F6] col-span-2 rounded-3xl">
+                        <img class="mb-2 md:mb-10 md:max-w-[56px] w-8 shrink-0" src="./img/section/n1.png" alt="">
                         <h3
-                            class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:w-[744px]">
-                            Автоматический контроль качества <br class="md:flex hidden"> <br class="md:hidden flex"> на
-                            производстве с помощью
-                            <br>нейронных сетей
-                            <img id="arrowBtn" class="md:hidden flex cursor-pointer w-8" src="./img/section/Btn.png"
-                                alt="">
+                            class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:max-w-[744px]">
+                            Автоматический контроль качества <br>
+                            на производстве с помощью <br>
+                            нейронных сетей<img id="arrowBtn" class="md:hidden flex cursor-pointer w-8"
+                                src="./img/section/Btn.png" alt="">
                         </h3>
                         <p id="shrink"
-                            class="md:hidden flex line-clamp-0 font-medium text-sm text-[#7D8896] pb-4 border-b border-[#D9D9D9]">
+                            class="md:hidden flex line-clamp-0 leading font-medium text-sm text-[#7D8896] pb-4 border-b border-[#D9D9D9]">
                             Компьютерное зрение представляет собой разработку и внедрение инновационных систем...
                         </p>
                         <p class="md:flex hidden text-[#37485D] font-medium text-lg leading-7 mb-8">Автоматизированный
@@ -247,18 +244,18 @@
                             процесса контроля качества, сократить время и затраты, а также улучшить общую надежность и
                             качество продукции или услуг.</p>
                         <button
-                            class="hidden md:flex gap-[2px] border border-[#006AFF] rounded-3xl items-center px-[278px] py-4 text-[#006AFF] font-semibold text-lg leading-7">
+                            class="hidden md:flex gap-[2px] border border-[#006AFF] justify-center rounded-3xl items-center w-full text-center py-4 text-[#006AFF] font-semibold text-lg leading-7">
                             <img class="w-8" src="./img/section/arrow.png" alt="">
                             Обсудить проект
                         </button>
                     </div>
                 </div>
-                <div class="flex justify-between">
+                <div class="md:grid grid-cols-2 gap-6 justify-between">
                     <div
                         class="md:flex flex-col hidden md:px-6 pt-8 pb-4 bg-white md:bg-[#F1F3F6] max-w-[588px] rounded-3xl">
-                        <img class="mb-2 md:mb-10 md:w-[56px] w-8" src="./img/section/Iq.png" alt="">
+                        <img class="mb-2 md:mb-10 md:max-w-[56px] w-8" src="./img/section/Iq.png" alt="">
                         <h3
-                            class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:w-[744px]">
+                            class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:max-w-[744px]">
                             Искусственный интеллект <br> <br class="md:hidden flex"> в медицине для диагностики,
                             <br>прогнозирования <br> заболеваний
                             <img id="arrowBtn" class="md:hidden flex cursor-pointer w-8" src="./img/section/Btn.png"
@@ -272,15 +269,15 @@
                             комплексных подходов возможно оценить эффективность производства и разработать прогнозные
                             модели для оптимального управления технологическими процессами.</p>
                         <button
-                            class="hidden md:flex gap-[2px] border border-[#006AFF] rounded-3xl items-center px-[177px] py-4 text-[#006AFF] font-semibold text-lg leading-7">
+                            class="hidden md:flex gap-[2px] border border-[#006AFF] rounded-3xl items-center w-full justify-center py-4 text-[#006AFF] font-semibold text-lg leading-7">
                             <img class="w-8" src="./img/section/arrow.png" alt="">
                             Обсудить проект
                         </button>
                     </div>
                     <div class="md:px-6 pt-8 pb-4 bg-white md:bg-[#F1F3F6] max-w-[588px] rounded-3xl">
-                        <img class="mb-2 md:mb-10 md:w-[56px] w-8" src="./img/section/medicina.png" alt="">
+                        <img class="mb-2 md:mb-10 md:max-w-[56px] w-8" src="./img/section/medicina.png" alt="">
                         <h3
-                            class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:w-[744px]">
+                            class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:max-w-[744px]">
                             Искусственный интеллект <br class="md:flex hidden"> <br class="md:hidden flex"> для
                             оптимизации
                             <br>технологических процессов
@@ -299,28 +296,28 @@
                             Искусственный интеллект в медицине может быть применен для работы с различными видами
                             медицинских исследований.</p>
                         <button
-                            class="hidden md:flex gap-[2px] border border-[#006AFF] rounded-3xl items-center px-[177px] py-4 text-[#006AFF] font-semibold text-lg leading-7">
+                            class="hidden md:flex gap-[2px] border border-[#006AFF] rounded-3xl items-center w-full justify-center py-4 text-[#006AFF] font-semibold text-lg leading-7">
                             <img class="w-8" src="./img/section/arrow.png" alt="">
                             Обсудить проект
                         </button>
                     </div>
                 </div>
-                <div class="flex justify-between">
-                    <div class="hidden md:flex items-start">
+                <div class="md:grid grid-cols-3 justify-between">
+                    <div class="hidden items-start md:grid grid-cols-2">
                         <div class="">
-                            <img src="./img/section/hand.png" class="w-[192px]" alt="">
-                            <img src="./img/section/person.png" class="w-[192px]" alt="">
+                            <img src="./img/section/hand.png" class="w-full" alt="">
+                            <img src="./img/section/person.png" class="w-full" alt="">
                         </div>
                         <div class="">
-                            <img src="./img/section/chip.png" class="w-[192px]" alt="">
-                            <img src="./img/section/girl1.png" class="w-[192px]" alt="">
-                            <img src="./img/section/star.png" class="w-[124px]" alt="">
+                            <img src="./img/section/chip.png" class="w-full" alt="">
+                            <img src="./img/section/girl1.png" class="w-full" alt="">
+                            <img src="./img/section/star.png" class="max-w-[124px]" alt="">
                         </div>
                     </div>
-                    <div class="md:px-6 pt-8 pb-4 bg-white md:bg-[#F1F3F6] max-w-[792px] rounded-3xl">
-                        <img class="mb-2 md:mb-10 md:w-[56px] w-8" src="./img/section/n1.png" alt="">
+                    <div class="md:px-6 pt-8 pb-4 col-span-2 bg-white md:bg-[#F1F3F6] max-w-[792px] rounded-3xl">
+                        <img class="mb-2 md:mb-10 md:max-w-[56px] w-8" src="./img/section/n1.png" alt="">
                         <h3
-                            class="font-semibold text-2xl leading-6 flex items-center w-full md:text-4xl md:leading-10 mb-6 justify-between md:w-[744px]">
+                            class="font-semibold text-2xl leading-6 flex items-center w-full md:text-4xl md:leading-10 mb-6 justify-between md:max-w-[744px]">
                             Разработка ИИ под ваши требования
                             <img id="arrowBtn" class="md:hidden flex cursor-pointer w-8" src="./img/section/Btn.png"
                                 alt="">
@@ -333,7 +330,7 @@
                             системы искусственного интеллекта под ваши задачи, опираясь на наш опыт в широком спектре
                             областей IT, давая при этом полную прозрачность хода проекта.</p>
                         <button
-                            class="hidden md:flex gap-[2px] border border-[#006AFF] rounded-3xl items-center px-[278px] py-4 text-[#006AFF] font-semibold text-lg leading-7">
+                            class="hidden md:flex gap-[2px] border border-[#006AFF] rounded-3xl items-center w-full justify-center py-4 text-[#006AFF] font-semibold text-lg leading-7">
                             <img class="w-8" src="./img/section/arrow.png" alt="">
                             Обсудить проект
                         </button>
@@ -402,274 +399,6 @@
                 </div>
             </div>
         </div>
-        <div class="md:hidden flex-col hidden">
-            <h2 class="text-white text-3xl mb-10">
-                Этапы <br> разработки <br> искусственного интеллекта
-            </h2>
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="bg-white px-4 py-6 rounded-[24px]">
-                            <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                            </h3>
-                            <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно изучат
-                                сферу
-                                деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить результаты и
-                                предложить
-                                наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="bg-white px-4 py-6 rounded-[24px]">
-                            <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                            </h3>
-                            <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно изучат
-                                сферу
-                                деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить результаты и
-                                предложить
-                                наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="bg-white px-4 py-6 rounded-[24px]">
-                            <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                            </h3>
-                            <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно изучат
-                                сферу
-                                деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить результаты и
-                                предложить
-                                наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="bg-white px-4 py-6 rounded-[24px]">
-                            <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                            </h3>
-                            <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно изучат
-                                сферу
-                                деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить результаты и
-                                предложить
-                                наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="bg-white px-4 py-6 rounded-[24px]">
-                            <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                            </h3>
-                            <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно изучат
-                                сферу
-                                деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить результаты и
-                                предложить
-                                наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="swiper-slide">
-                            <div class="bg-white px-4 py-6 rounded-[24px]">
-                                <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                    Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                                </h3>
-                                <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                    Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно
-                                    изучат
-                                    сферу
-                                    деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить
-                                    результаты и
-                                    предложить
-                                    наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-slide">
-                            <div class="bg-white px-4 py-6 rounded-[24px]">
-                                <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                    Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                                </h3>
-                                <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                    Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно
-                                    изучат
-                                    сферу
-                                    деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить
-                                    результаты и
-                                    предложить
-                                    наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-slide">
-                            <div class="bg-white px-4 py-6 rounded-[24px]">
-                                <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                    Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                                </h3>
-                                <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                    Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно
-                                    изучат
-                                    сферу
-                                    деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить
-                                    результаты и
-                                    предложить
-                                    наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                                </p>
-                            </div>
-                        </div> 3
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-slide">
-                            <div class="bg-white px-4 py-6 rounded-[24px]">
-                                <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                    Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                                </h3>
-                                <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                    Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно
-                                    изучат
-                                    сферу
-                                    деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить
-                                    результаты и
-                                    предложить
-                                    наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                                </p>
-                            </div>
-                        </div> 4
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-slide">
-                            <div class="bg-white px-4 py-6 rounded-[24px]">
-                                <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                    Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                                </h3>
-                                <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                    Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно
-                                    изучат
-                                    сферу
-                                    деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить
-                                    результаты и
-                                    предложить
-                                    наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                                </p>
-                            </div>
-                        </div> 5
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-slide">
-                            <div class="bg-white px-4 py-6 rounded-[24px]">
-                                <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                    Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                                </h3>
-                                <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                    Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно
-                                    изучат
-                                    сферу
-                                    деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить
-                                    результаты и
-                                    предложить
-                                    наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-slide">
-                            <div class="bg-white px-4 py-6 rounded-[24px]">
-                                <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                    Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                                </h3>
-                                <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                    Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно
-                                    изучат
-                                    сферу
-                                    деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить
-                                    результаты и
-                                    предложить
-                                    наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                                </p>
-                            </div>
-                        </div> 7
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-slide">
-                            <div class="bg-white px-4 py-6 rounded-[24px]">
-                                <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                    Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                                </h3>
-                                <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                    Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно
-                                    изучат
-                                    сферу
-                                    деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить
-                                    результаты и
-                                    предложить
-                                    наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                                </p>
-                            </div>
-                        </div> 8
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-slide">
-                            <div class="bg-white px-4 py-6 rounded-[24px]">
-                                <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                    Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                                </h3>
-                                <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                    Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно
-                                    изучат
-                                    сферу
-                                    деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить
-                                    результаты и
-                                    предложить
-                                    наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                                </p>
-                            </div>
-                        </div> 9
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper-slide">
-                            <div class="bg-white px-4 py-6 rounded-[24px]">
-                                <h3 class="mb-4 font-bold text-[24px] leading-[32.78px] text-[#091D37]">
-                                    Анализ бизнес-требований и сферы применения искусственного интеллекта (нейросетей)
-                                </h3>
-                                <p class="font-medium text-sm leading-[18.2px] text-[#091D37] opacity-80">
-                                    Наши опытные специалисты проведут анализ ваших бизнес-требований и внимательно
-                                    изучат
-                                    сферу
-                                    деятельности вашей компании. Мы оперативно свяжемся с вами, чтобы обсудить
-                                    результаты и
-                                    предложить
-                                    наилучшие решения, которые могут помочь вашему бизнесу процветать.
-                                </p>
-                            </div>
-                        </div> 10
-                    </div>
-                </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-                <!-- Add Navigation -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-        </div>
     </section>
     <section class="pt-8 md:pt-20 overflow-hidden">
         <div class="max-w-[1240px] px-4 mx-auto">
@@ -681,9 +410,9 @@
                 в бизнес процессы</h2>
             <hr class="mb-10">
             <div class="mb-10 border-b pb-10">
-                <img class="mb-6 md:mb-4 w-8 md:w-[56px]" src="./img/main/brain.png" alt="">
+                <img class="mb-6 md:mb-4 w-8 md:max-w-[56px]" src="./img/main/brain.png" alt="">
                 <div class="md:flex gap-6 items-start justify-between">
-                    <h3 class="md:w-[588px] text-[#091D37] text-2xl mb-4 md:text-5xl font-semibold">Высокая <br>
+                    <h3 class="md:max-w-[588px] text-[#091D37] text-2xl mb-4 md:text-5xl font-semibold">Высокая <br>
                         эффективность</h3>
                     <p class="md:max-w-[588px] text-[#091D37] leading-7 opacity-60 font-medium text-sm md:text-lg mt-3">
                         Одним из
@@ -695,44 +424,57 @@
                         рекомендации в режиме реального времени, что человеку было бы трудно осуществить.</p>
                 </div>
             </div>
-            <div class="mb-10 border-b pb-10">
-                <img class="mb-6 md:mb-4 w-8 md:w-[56px]" src="./img/main/money.png" alt="">
-                <div class="md:flex gap-6 items-start justify-between">
-                    <h3 class="md:w-[588px] text-[#091D37] text-2xl mb-4 md:text-5xl font-semibold">Экономия <br>
-                        средств</h3>
-                    <p class="md:max-w-[588px] text-[#091D37] leading-7 opacity-60 font-medium text-sm md:text-lg mt-3">
-                        Искусственный интеллект также способен снижать затраты для бизнеса, автоматизируя задачи,
-                        которые обычно требовали бы участия человека. Благодаря системам искусственного интеллекта,
-                        компании могут значительно сократить трудозатраты и увеличить производительность. Например,
-                        система искусственного интеллекта может обрабатывать запросы клиентов в области обслуживания,
-                        что освобождает сотрудников для выполнения других важных задач.</p>
+            <div class="">
+                <div class="mb-10 border-b pb-10">
+                    <img class="mb-6 md:mb-4 w-8 md:max-w-[56px]" src="./img/main/money.png" alt="">
+                    <div class="md:flex gap-6 items-start justify-between">
+                        <h3 class="md:max-w-[588px] text-[#091D37] text-2xl mb-4 md:text-5xl font-semibold">Экономия
+                            <br>
+                            средств
+                        </h3>
+                        <p
+                            class="md:max-w-[588px] text-[#091D37] leading-7 opacity-60 font-medium text-sm md:text-lg mt-3">
+                            Искусственный интеллект также способен снижать затраты для бизнеса, автоматизируя задачи,
+                            которые обычно требовали бы участия человека. Благодаря системам искусственного интеллекта,
+                            компании могут значительно сократить трудозатраты и увеличить производительность. Например,
+                            система искусственного интеллекта может обрабатывать запросы клиентов в области
+                            обслуживания,
+                            что освобождает сотрудников для выполнения других важных задач.</p>
+                    </div>
+                </div>
+                <div class="mb-10 border-b pb-10">
+                    <img class="mb-6 md:mb-4 w-8 md:max-w-[56px]" src="./img/main/smile.png" alt="">
+                    <div class="md:flex gap-6 items-start justify-between">
+                        <h3 class="md:max-w-[588px] text-[#091D37] text-2xl mb-4 md:text-5xl font-semibold">Улучшение
+                            процесса
+                            <br>
+                            принятий решений
+                        </h3>
+                        <p
+                            class="md:max-w-[588px] text-[#091D37] opacity-60 leading-7 font-medium text-sm md:text-lg mt-3">
+                            Искусственный интеллект способен значительно облегчить процесс принятия решений, предоставив
+                            ценную информацию и рекомендации на основе имеющихся данных. Благодаря алгоритмам
+                            искусственного
+                            интеллекта, огромные объемы информации могут быть проанализированы для выявления
+                            закономерностей
+                            и тенденций, что в свою очередь помогает компаниям формировать более обоснованные мнения.
+                            Например, система искусственного интеллекта может помочь розничным продавцам определить
+                            наиболее
+                            прибыльные продукты для хранения на основе информации о предыдущих сделках. Еще одним важным
+                            применением искусственного интеллекта является его способность прогнозировать тенденции
+                            запросов
+                            и соответственно оптимизировать инвестиции финансовых учреждений.</p>
+                    </div>
                 </div>
             </div>
-            <div class="mb-10 border-b pb-10">
-                <img class="mb-6 md:mb-4 w-8 md:w-[56px]" src="./img/main/smile.png" alt="">
-                <div class="md:flex gap-6 items-start justify-between">
-                    <h3 class="md:w-[588px] text-[#091D37] text-2xl mb-4 md:text-5xl font-semibold">Улучшение процесса
-                        <br>
-                        принятий решений
-                    </h3>
-                    <p class="md:max-w-[588px] text-[#091D37] opacity-60 leading-7 font-medium text-sm md:text-lg mt-3">
-                        Искусственный интеллект способен значительно облегчить процесс принятия решений, предоставив
-                        ценную информацию и рекомендации на основе имеющихся данных. Благодаря алгоритмам искусственного
-                        интеллекта, огромные объемы информации могут быть проанализированы для выявления закономерностей
-                        и тенденций, что в свою очередь помогает компаниям формировать более обоснованные мнения.
-                        Например, система искусственного интеллекта может помочь розничным продавцам определить наиболее
-                        прибыльные продукты для хранения на основе информации о предыдущих сделках. Еще одним важным
-                        применением искусственного интеллекта является его способность прогнозировать тенденции запросов
-                        и соответственно оптимизировать инвестиции финансовых учреждений.</p>
-                </div>
-            </div>
+
         </div>
     </section>
     <section class="pt-20 pb-10 md:py-20 bg-[#A6B4C729] overflow-hidden">
         <div class="max-w-[1240px] px-4 mx-auto">
             <h3 class="text-[#091D37] font-semibold text-3xl mb-6 leading-9 md:text-[64px] md:mb-16">О компании</h3>
-            <img class="mb-7 w-[187px] mx-auto md:hidden flex" src="./img/section1/siteCompany.png" alt="">
-            <p class="w-[288px] md:hidden flex text-[#091D37] opacity-80 text-base leading-6">
+            <img class="mb-7 max-w-[187px] mx-auto md:hidden flex" src="./img/section1/siteCompany.png" alt="">
+            <p class="max-w-[288px] md:hidden flex text-[#091D37] opacity-80 text-base leading-6">
                 Команда профессионалов Смарт Спейс Лаб специализируется на создании и внедрении инновационных решений
                 для вашего бизнеса. Мы предоставляем полный спектр услуг, начиная от анализа потребностей и оценки
                 бизнес-процессов, и заканчивая интеграцией разработанных решений и обучением персонала.
@@ -746,7 +488,7 @@
                 Вместе мы сможем достигнуть новых высот и успехов в бизнесе!
             </p>
             <div class="items-center gap-20 justify-between md:flex hidden">
-                <p class="w-[720px] font-medium leading-7 text-[#091D37] opacity-80 text-lg">
+                <p class="max-w-[720px] font-medium leading-7 text-[#091D37] opacity-80 text-lg">
                     Команда профессионалов Смарт Спейс Лаб специализируется на создании и внедрении инновационных
                     решений для вашего бизнеса. Мы предоставляем полный спектр услуг, начиная от анализа потребностей и
                     оценки бизнес-процессов, и заканчивая интеграцией разработанных решений и обучением персонала.
@@ -759,7 +501,7 @@
                     условиям рынка. Наше агентство всегда готово к сотрудничеству и открыто для новых идей и проектов.
                     Вместе мы сможем достигнуть новых высот и успехов в бизнесе!
                 </p>
-                <img class="w-[420px]" src="./img/section1/siteCompany.png" alt="">
+                <img class="max-w-[420px]" src="./img/section1/siteCompany.png" alt="">
             </div>
         </div>
     </section>
@@ -779,7 +521,7 @@
                     </div>
                     <div class="">
                         <p id="overflow"
-                            class="text-[#091D37] w-[280px] md:w-[720px] mt-10 hidden leading-7 opacity-60 font-medium text-lg">
+                            class="text-[#091D37] max-w-[280px] md:max-w-[720px] mt-10 hidden leading-7 opacity-60 font-medium text-lg">
                             Нейронные сети с прямой связью (FNN), также известные как многослойные персептроны (MLP),
                             являются самым основным типом. Они состоят из входного слоя, одного или нескольких скрытых
                             слоев
@@ -857,7 +599,7 @@
                     </div>
                     <div class="">
                         <p id="overflow"
-                            class="text-[#091D37] w-[280px] md:w-[720px] mt-10 opacity-60 font-medium text-lg hidden leading-7">
+                            class="text-[#091D37] max-w-[280px] md:max-w-[720px] mt-10 opacity-60 font-medium text-lg hidden leading-7">
                             Нейронные сети с прямой связью (FNN), также известные как многослойные персептроны (MLP),
                             являются самым основным типом. Они состоят из входного слоя, одного или нескольких скрытых
                             слоев
@@ -935,7 +677,7 @@
                     </div>
                     <div class="">
                         <p id="overflow"
-                            class="text-[#091D37] w-[280px] md:w-[720px] mt-10 hidden opacity-60 font-medium text-lg leading-7">
+                            class="text-[#091D37] max-w-[280px] md:max-w-[720px] mt-10 hidden opacity-60 font-medium text-lg leading-7">
                             Нейронные сети с прямой связью (FNN), также известные как многослойные персептроны (MLP),
                             являются самым основным типом. Они состоят из входного слоя, одного или нескольких скрытых
                             слоев
@@ -1013,7 +755,7 @@
                     </div>
                     <div class="">
                         <p id="overflow"
-                            class="text-[#091D37] w-[280px] md:w-[720px] mt-10 hidden leading-7 opacity-60 font-medium text-lg">
+                            class="text-[#091D37] max-w-[280px] md:max-w-[720px] mt-10 hidden leading-7 opacity-60 font-medium text-lg">
                             Нейронные сети с прямой связью (FNN), также известные как многослойные персептроны (MLP),
                             являются самым основным типом. Они состоят из входного слоя, одного или нескольких скрытых
                             слоев
@@ -1090,7 +832,7 @@
                     </div>
                     <div class="">
                         <p id="overflow"
-                            class="text-[#091D37] w-[280px] md:w-[720px] mt-10 hidden leading-7 opacity-60 font-medium text-lg">
+                            class="text-[#091D37] max-w-[280px] md:max-w-[720px] mt-10 hidden leading-7 opacity-60 font-medium text-lg">
                             Нейронные сети с прямой связью (FNN), также известные как многослойные персептроны (MLP),
                             являются самым основным типом. Они состоят из входного слоя, одного или нескольких скрытых
                             слоев
@@ -1163,15 +905,16 @@
     <footer class="pt-8 md:pt-20 pb-9 md:pb-[102px]">
         <div class="max-w-[1240px] mx-auto px-4">
             <h3 class="md:mb-16 text-[#091D37] font-semibold text-3xl mb-12 md:text-6xl">Контакты</h3>
-            <iframe class="w-[288px] h-[160px] md:h-[460px] md:w-[1200px] mb-6 md:mb-10 rounded-3xl"
+            <iframe class="w-full mb-6 md:mb-10 rounded-3xl"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d511641.75343199394!2d29.43536002059045!3d59.93876937671336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsINCg0L7RgdGB0LjRjw!5e0!3m2!1sru!2s!4v1716880768098!5m2!1sru!2s"
-                width="w-[1200px]" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                width="max-w-[1200px]" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="md:flex items-start">
                 <div class="mr-16">
                     <h5 class="text-[#A6B4C7] font-bold text-base mb-2">Адрес:</h5>
                     <h4 class="font-semibold text-[#091D37] text-2xl md:text-4xl mb-2 md:mb-4">г. Санкт-Петербург</h4>
-                    <a target="_blank" href="https://www.google.com/maps/place/%D0%9D%D0%B0%D1%80%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80.,+18,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+190020/@59.903264,30.27196,17z/data=!4m6!3m5!1s0x4696308e09946fcf:0xa244fc418b12e706!8m2!3d59.903264!4d30.2745349!16s%2Fg%2F11csgmf8vz?entry=ttu"
+                    <a target="_blank"
+                        href="https://www.google.com/maps/place/%D0%9D%D0%B0%D1%80%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80.,+18,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+190020/@59.903264,30.27196,17z/data=!4m6!3m5!1s0x4696308e09946fcf:0xa244fc418b12e706!8m2!3d59.903264!4d30.2745349!16s%2Fg%2F11csgmf8vz?entry=ttu"
                         class="text-[#383838] leading-6 md:leading-7 opacity-60 font-medium text-base">​190020, Нарвский
                         пр-кт, д. 18,
                         <br class="md:flex flex-col hidden">
@@ -1181,7 +924,8 @@
                 <div class="md:mr-[117px] mb-10 md:mb-0">
                     <h5 class="opacity-0 text-[#A6B4C7] font-bold text-base mb-2">Адрес:</h5>
                     <h4 class="text-[#091D37] text-2xl mb-2 md:mb-4 md:text-4xl font-semibold">г. Ярославль</h4>
-                    <a target="_blank" href="https://www.google.com/maps/place/%D0%9D%D0%B0%D1%80%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80.,+18,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+190020/@59.903264,30.27196,17z/data=!4m6!3m5!1s0x4696308e09946fcf:0xa244fc418b12e706!8m2!3d59.903264!4d30.2745349!16s%2Fg%2F11csgmf8vz?entry=ttu"
+                    <a target="_blank"
+                        href="https://www.google.com/maps/place/%D0%9D%D0%B0%D1%80%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80.,+18,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+190020/@59.903264,30.27196,17z/data=!4m6!3m5!1s0x4696308e09946fcf:0xa244fc418b12e706!8m2!3d59.903264!4d30.2745349!16s%2Fg%2F11csgmf8vz?entry=ttu"
                         class="text-[#383838] w-full leading-6 md:leading-7 opacity-60 font-medium text-base">150000,
                         ул.
                         Чайковского, д.
