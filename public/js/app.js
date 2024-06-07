@@ -16,11 +16,23 @@ let hamburgerMenu = document.querySelector("#hamburgerMenu")
 let responsiveBox = document.querySelector("#responsiveBox")
 
 
-hamburgerMenu.addEventListener('click' , function(){
+hamburgerMenu.addEventListener('click', function () {
     responsiveBox.classList.add("right-0")
     responsiveBox.classList.remove("-right-full")
 })
-closeMenu.addEventListener('click' , function(){
+closeMenu.addEventListener('click', function () {
     responsiveBox.classList.add("-right-full")
     responsiveBox.classList.remove("right-0")
+})
+
+let arrowBtn = document.querySelectorAll("#arrowBtn")
+let shrink = document.querySelectorAll("#shrink")
+
+arrowBtn.forEach(function (item, index) {
+    item.addEventListener('click', function () {
+        shrink[index].classList.add("line-clamp-3")
+        shrink[index].classList.remove("line-clamp-0")
+    })
+    shrink[index].classList.remove("line-clamp-3")
+    shrink[index].classList.add("line-clamp-0")
 })
