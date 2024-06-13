@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div style="background-image: url(./img/page4/block\ 1.\ v1.svg); background-position: center;"
+        class="bg-cover rounded-2xl md:hidden flex-col flex">
+        <header class="py-4 px-4">
+            <div class="flex justify-between items-center mb-11">
+                <a class="font-semibold text-[#091D37] text-3xl leading-7" href="#">SSL
+                    <span class="text-[#A6B4C7] text-xl leading-5">/</span><span class="text-xl leading-5">AI</span></a>
+                <button class="">
+                    <img class="text-black" id="hamburgerMenu" src="./img/header/hamburger.png" alt="">
+                </button>
+            </div>
+            <img src="./img/hero/brain2.png" alt="">
+        </header>
+        <div style="transition: .5s all;" id="responsiveBox"
+            class="bg-blue-500 z-10 h-screen fixed top-0 w-full py-6 mx-auto px-4 -right-full">
+            <div class="flex items-center justify-between mb-10 border-b p-x-10 pb-10">
+                <a class="font-semibold text-white text-3xl leading-7" href="#">SSL <span
+                        class="text-[#A6B4C7] text-xl leading-5">/</span><span class="text-xl leading-5">AI</span></a>
+                <a id="closeMenu" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        fill="currentColor" class="size-6 text-white">
+                        <path fill-rule="changeColor"
+                            d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"
+                            clip-rule="changeColor" />
+                    </svg>
+                </a>
+            </div>
+            <ul class="text-center mb-10 flex flex-col gap-5">
+                <li class="">
+                    <a class="text-white text-sm font-medium leading-4 pb-4 border-b" href="index1.html">Услуги</a>
+                </li>
+                <li class="">
+                    <a class="text-white text-sm font-medium leading-4 pb-4 border-b" href="index2.html">О нас</a>
+                </li>
+                <li class="">
+                    <a class="text-white text-sm font-medium leading-4 pb-4 border-b" href="#">Блог</a>
+                </li>
+                <li class="">
+                    <a class="text-white text-sm font-medium leading-4 pb-4 border-b" href="#">Контакты</a>
+                </li>
+            </ul>
+            <div class="flex gap-3 justify-center md:gap-4 mt-5">
+                <a href="https://www.instagram.com/shifo_nur_koz_klinika/" target="_blank"><img
+                        class="md:w-10 w-8 rounded-xl" src="./img/footer/whatsUp.jpg" alt=""></a>
+                <a target="_blank" href="https://t.me/bibixonimshifo"><img class="md:w-10 w-8"
+                        src="./img/footer/telegram.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div style="background-image: url(./img/page4/block\ 1.\ v1.svg);" class="bg-cover md:flex flex-col hidden">
+        <header class="pt-5 pb-3">
+            <div class="flex items-center max-w-[1240px] mx-auto px-4">
+                <a class="font-semibold text-[#091D37] text-3xl leading-7" href="index.html">SSL <span
+                        class="text-[#A6B4C7] text-xl leading-5">/</span><span class="text-xl leading-5">AI</span></a>
+                <ul class="hidden ml-auto gap-11 mr-10 md:flex">
+                    <li class="">
+                        <a class="text-[#091D37] text-sm font-medium leading-4" href="index1.html">Услуги</a>
+                    </li>
+                    <li class="">
+                        <a class="text-[#091D37] text-sm font-medium leading-4" href="index2.html">О нас</a>
+                    </li>
+                    <li class="">
+                        <a class="text-[#091D37] text-sm font-medium leading-4" href="index4.html">Блог</a>
+                    </li>
+                    <li class="">
+                        <a class="text-[#091D37] text-sm font-medium leading-4" href="#">Контакты</a>
+                    </li>
+                </ul>
+                <button
+                    class="md:flex hidden bg-[#091D37] font-semibold text-sm py-2.5 px-11 text-white rounded-[37px] transition-all hover:bg-transparent hover:text-[#091D37] border border-[#091D37]">Призыв</button>
+            </div>
+        </header>
+        <section class="pt-6 md:pt-16">
+            <div class="mx-auto max-w-[1240px] px-4 flex flex-col justify-between items-center text-center">
+                <img class="md:hidden flex" src="./img/hero/brain2.png" alt="">
+                <h1 class="mb-6 font-bold text-[#091D37] text-[56px] leading-[61px] md:flex hidden">
+                    Разработка искусственного <br> интеллекта для вашего бизнеса</h1>
+                <p class="mb-4 md:mb-10 text-[#091D37] text-lg leading-7">Разрабатываем и
+                    внедряем системы
+                    искусственного интеллекта, нейронных <br>
+                    сетей и
+                    машинного
+                    обучения с учетом требований вашего бизнеса</p>
+                <button
+                    class="py-4 px-14 rounded-[40px] hover:bg-transparent border hover:border-[#006AFF] hover:text-[#006AFF] transition-all bg-[#006AFF] font-semibold text-white text-base mb-11">Обсудить
+                    проект</button>
+                <img class="max-w-[1120px] md:flex hidden" src="./img/page4/Rectangle 16 (5).png" alt="">
+            </div>
+    </div>
+    <section class="pt-20 pb-[120px]">
+        <div class="max-w-[1240px] px-4 mx-auto">
+            <h2 class="text-[#091D37] font-semibold text-3xl md:text-[64px] leading-9 md:leading-[70px] mb-[43px]">
+                Наши
+                услуги по разработке <br>
+                искусственного интеллекта <br>
+                и машинного обучения</h2>
+            <div class="flex"></div>
+            <div class="flex gap-6 justify-between items-center border-b md:pb-[87px] md:mb-[88px]">
+                <div class="max-w-[588px]">
+                    <h3
+                        class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:max-w-[744px]">
+                        Компьютерное <br class="md:hidden flex"> зрение <img id="arrowBtn"
+                            class="md:hidden flex cursor-pointer w-8" src="./img/section/Btn.png" alt="">
+                    </h3>
+                    <p id="shrink"
+                        class="md:hidden flex overflow-hidden font-medium text-sm text-[#7D8896] w-full pb-4 border-b border-[#D9D9D9]">
+                        Компьютерное зрение представляет собой разработку и внедрение
+                        инновационных систем...
+                    </p>
+                    <div id="shrink1" class="md:hidden max-w-[588px] hidden flex-col border-b pb-2">
+                        <p class="overflow-hidden font-medium text-sm text-[#7D8896] w-full border-[#D9D9D9] mb-4">
+                            Мы разрабатываем системы искусственного интеллекта под ваши
+                            задачи, опираясь на
+                            наш опыт в широком спектре областей IT, давая при этом полную
+                            прозрачность хода проекта.
+                        </p>
+                        <button
+                            class="py-5 rounded-lg px-16 hover:bg-white border hover:border-[#006AFF] hover:text-[#006AFF] transition-all bg-[#006AFF] font-semibold text-white text-base">Обсудить
+                            проект</button>
+                    </div>
+                    <p class="md:flex hidden text-[#37485D] font-medium text-lg leading-7 mb-8">
+                        Компьютерное зрение
+                        представляет собой разработку и внедрение инновационных систем,
+                        способных в полной мере анализировать и интерпретировать различные
+                        изображения с высокой
+                        точностью. Такие системы обладают способностью распознавать
+                        разнообразные объекты, лица,
+                        жесты и
+                        предоставлять информацию о них, что открывает огромные возможности
+                        для использования в
+                        различных
+                        областях человеческой деятельности.</p>
+                    <button
+                        class="hidden md:flex gap-[2px] hover:bg-[#006AFF] border border-[#006AFF] justify-center rounded-3xl items-center w-full text-center py-4 text-[#006AFF] hover:text-white transition-all font-semibold text-lg leading-7">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_174_56)">
+                                <path d="M22.6663 9.33337L9.33301 22.6667" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M10.667 9.33337H22.667V21.3334" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_174_56">
+                                    <rect width="32" height="32" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Обсудить проект
+                    </button>
+                </div>
+                <img class="mb-2 md:mb-10 md:flex hidden max-w-[651px]" src="./img/page4/Group 62 (3).png" alt="">
+            </div>
+            <div class="flex justify-between flex-row-reverse items-center border-b md:mb-[88px] md:pb-[87px]">
+                <div class="max-w-[588px]">
+                    <h3
+                        class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:max-w-[744px]">
+                        Автоматизация <br class="md:hidden flex"> процессов <img id="arrowBtn"
+                            class="md:hidden flex cursor-pointer w-8" src="./img/section/Btn.png" alt="">
+                    </h3>
+                    <p id="shrink"
+                        class="md:hidden flex overflow-hidden font-medium text-sm text-[#7D8896] w-full pb-4 border-b border-[#D9D9D9]">
+                        Автоматизация процессов представляет собой разработку и внедрение
+                        инновационных систем...
+                    </p>
+                    <div id="shrink1" class="md:hidden max-w-[588px] hidden flex-col border-b pb-2">
+                        <p class="overflow-hidden font-medium text-sm text-[#7D8896] w-full border-[#D9D9D9] mb-4">
+                            Мы разрабатываем системы искусственного интеллекта под ваши
+                            задачи, опираясь на
+                            наш опыт в широком спектре областей IT, давая при этом полную
+                            прозрачность хода проекта.
+                        </p>
+                        <button
+                            class="py-5 rounded-lg px-16 hover:bg-white border hover:border-[#006AFF] hover:text-[#006AFF] transition-all bg-[#006AFF] font-semibold text-white text-base">Обсудить
+                            проект</button>
+                    </div>
+                    <p class="md:flex hidden text-[#37485D] font-medium text-lg leading-7 mb-8">
+                        Благодаря автоматизации,
+                        компании могут существенно сократить временные затраты на выполнение
+                        задач и снизить вероятность
+                        ошибок. В результате, бизнес-процессы становятся более эффективными
+                        и прозрачными, что позволяет
+                        максимально удовлетворить потребности клиентов и привлечь новых.
+                        Оптимизация бизнес-процессов
+                        через внедрение автоматизированных систем – это незаменимый шаг в
+                        стремлении компании к успеху и
+                        устойчивому развитию.</p>
+                    <button
+                        class="hidden md:flex gap-[2px] hover:bg-[#006AFF] border border-[#006AFF] justify-center rounded-3xl items-center w-full text-center py-4 text-[#006AFF] hover:text-white transition-all font-semibold text-lg leading-7">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_174_56)">
+                                <path d="M22.6663 9.33337L9.33301 22.6667" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M10.667 9.33337H22.667V21.3334" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_174_56">
+                                    <rect width="32" height="32" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Обсудить проект
+                    </button>
+                </div>
+                <img class="mb-2 md:mb-10 md:flex hidden max-w-[598px]" src="./img/page4/Group 63.png" alt="">
+            </div>
+            <div class="flex justify-between items-center border-b md:pb-[87px] md:mb-[88px]">
+                <div class="max-w-[588px]">
+                    <h3
+                        class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:max-w-[744px]">
+                        Распознавание речи и <br class="md:hidden flex"> голосовой ассистент
+                        <img id="arrowBtn" class="md:hidden flex cursor-pointer w-8" src="./img/section/Btn.png" alt="">
+                    </h3>
+                    <p id="shrink"
+                        class="md:hidden flex overflow-hidden font-medium text-sm text-[#7D8896] w-full pb-4 border-b border-[#D9D9D9]">
+                        Компьютерное зрение представляет собой разработку и внедрение
+                        инновационных систем...
+                    </p>
+                    <div id="shrink1" class="md:hidden max-w-[588px] hidden flex-col border-b pb-2">
+                        <p class="overflow-hidden font-medium text-sm text-[#7D8896] w-full border-[#D9D9D9] mb-4">
+                            Мы разрабатываем системы искусственного интеллекта под ваши
+                            задачи, опираясь на
+                            наш опыт в широком спектре областей IT, давая при этом полную
+                            прозрачность хода проекта.
+                        </p>
+                        <button
+                            class="py-5 rounded-lg px-16 hover:bg-white border hover:border-[#006AFF] hover:text-[#006AFF] transition-all bg-[#006AFF] font-semibold text-white text-base">Обсудить
+                            проект</button>
+                    </div>
+                    <p class="md:flex hidden text-[#37485D] font-medium text-lg leading-7 mb-8">
+                        Разработка голосовых
+                        помощников также отличается от других областей программирования
+                        своей сложностью и требует
+                        глубокого понимания особенностей человеческой речи. Но именно в этой
+                        сложности кроется огромный
+                        потенциал возможностей для создания уникальных и полезных голосовых
+                        помощников, которые будут
+                        изменять и улучшать нашу повседневную жизнь.</p>
+                    <button
+                        class="hidden md:flex gap-[2px] hover:bg-[#006AFF] border border-[#006AFF] justify-center rounded-3xl items-center w-full text-center py-4 text-[#006AFF] hover:text-white transition-all font-semibold text-lg leading-7">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_174_56)">
+                                <path d="M22.6663 9.33337L9.33301 22.6667" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M10.667 9.33337H22.667V21.3334" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_174_56">
+                                    <rect width="32" height="32" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Обсудить проект
+                    </button>
+                </div>
+                <img class="mb-2 md:mb-10 md:flex hidden max-w-[567px]" src="./img/page4/Group 77.png" alt="">
+            </div>
+            <div class="flex justify-between flex-row-reverse items-center pb-[30px] mb-[88px] border-b">
+                <div class="max-w-[588px]">
+                    <h3
+                        class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:max-w-[744px]">
+                        Автоматический контроль <br class="md:hidden flex"> качества на
+                        производстве <br class="md:hidden flex">с помощью нейронных сетей
+                        <img id="arrowBtn" class="md:hidden flex cursor-pointer w-8" src="./img/section/Btn.png" alt="">
+                    </h3>
+                    <p id="shrink"
+                        class="md:hidden flex overflow-hidden font-medium text-sm text-[#7D8896] w-full pb-4 border-b border-[#D9D9D9]">
+                        Компьютерное зрение представляет собой разработку и внедрение
+                        инновационных систем...
+                    </p>
+                    <div id="shrink1" class="md:hidden max-w-[588px] hidden flex-col border-b pb-2">
+                        <p class="overflow-hidden font-medium text-sm text-[#7D8896] w-full border-[#D9D9D9] mb-4">
+                            Мы разрабатываем системы искусственного интеллекта под ваши
+                            задачи, опираясь на
+                            наш опыт в широком спектре областей IT, давая при этом полную
+                            прозрачность хода проекта.
+                        </p>
+                        <button
+                            class="py-5 rounded-lg px-16 hover:bg-white border hover:border-[#006AFF] hover:text-[#006AFF] transition-all bg-[#006AFF] font-semibold text-white text-base">Обсудить
+                            проект</button>
+                    </div>
+                    <p class="md:flex hidden text-[#37485D] font-medium text-lg leading-7 mb-8">
+                        Благодаря автоматизации,
+                        компании могут существенно сократить временные затраты на выполнение
+                        задач и снизить вероятность
+                        ошибок. В результате, бизнес-процессы становятся более эффективными
+                        и прозрачными, что позволяет
+                        максимально удовлетворить потребности клиентов и привлечь новых.
+                        Оптимизация бизнес-процессов
+                        через внедрение автоматизированных систем – это незаменимый шаг в
+                        стремлении компании к успеху и
+                        устойчивому развитию.</p>
+                    <button
+                        class="hidden md:flex gap-[2px] hover:bg-[#006AFF] border border-[#006AFF] justify-center rounded-3xl items-center w-full text-center py-4 text-[#006AFF] hover:text-white transition-all font-semibold text-lg leading-7">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_174_56)">
+                                <path d="M22.6663 9.33337L9.33301 22.6667" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M10.667 9.33337H22.667V21.3334" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_174_56">
+                                    <rect width="32" height="32" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Обсудить проект
+                    </button>
+                </div>
+                <img class="mb-2 md:mb-10 md:flex hidden max-w-[500px]" src="./img/page4/Group 78.png" alt="">
+            </div>
+            <div class="flex justify-between items-center mb-[88px] border-b">
+                <div class="max-w-[588px]">
+                    <h3
+                        class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:max-w-[744px]">
+                        Искусственный интеллект в <br class="md:hidden flex"> медицине для
+                        диагностики, <br class="md:hidden flex">прогнозирования заболеваний
+                        <img id="arrowBtn" class="md:hidden flex cursor-pointer w-8" src="./img/section/Btn.png" alt="">
+                    </h3>
+                    <p id="shrink"
+                        class="md:hidden flex overflow-hidden font-medium text-sm text-[#7D8896] w-full pb-4 border-b border-[#D9D9D9]">
+                        Компьютерное зрение представляет собой разработку и внедрение
+                        инновационных систем...
+                    </p>
+                    <div id="shrink1" class="md:hidden max-w-[588px] hidden flex-col border-b pb-2">
+                        <p class="overflow-hidden font-medium text-sm text-[#7D8896] w-full border-[#D9D9D9] mb-4">
+                            Мы разрабатываем системы искусственного интеллекта под ваши
+                            задачи, опираясь на
+                            наш опыт в широком спектре областей IT, давая при этом полную
+                            прозрачность хода проекта.
+                        </p>
+                        <button
+                            class="py-5 rounded-lg px-16 hover:bg-white border hover:border-[#006AFF] hover:text-[#006AFF] transition-all bg-[#006AFF] font-semibold text-white text-base">Обсудить
+                            проект</button>
+                    </div>
+                    <p class="md:flex hidden text-[#37485D] font-medium text-lg leading-7 mb-8">
+                        С помощью комплексных
+                        подходов возможно оценить эффективность производства и разработать
+                        прогнозные модели для
+                        оптимального управления технологическими процессами.</p>
+                    <button
+                        class="hidden md:flex gap-[2px] hover:bg-[#006AFF] border border-[#006AFF] justify-center rounded-3xl items-center w-full text-center py-4 text-[#006AFF] hover:text-white transition-all font-semibold text-lg leading-7">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_174_56)">
+                                <path d="M22.6663 9.33337L9.33301 22.6667" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M10.667 9.33337H22.667V21.3334" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_174_56">
+                                    <rect width="32" height="32" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Обсудить проект
+                    </button>
+                </div>
+                <img class="mb-2 md:mb-10 md:flex hidden max-w-[500px]" src="./img/page4/Group 69.png" alt="">
+            </div>
+            <div class="flex justify-between flex-row-reverse items-center mb-[88px] border-b">
+                <div class="max-w-[588px]">
+                    <h3
+                        class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:max-w-[744px]">
+                        Искусственный интеллект для <br class="md:hidden flex"> оптимизации
+                        технологических <br class="md:hidden flex">процессов <img id="arrowBtn"
+                            class="md:hidden flex cursor-pointer w-8" src="./img/section/Btn.png" alt="">
+                    </h3>
+                    <p id="shrink"
+                        class="md:hidden flex overflow-hidden font-medium text-sm text-[#7D8896] w-full pb-4 border-b border-[#D9D9D9]">
+                        Компьютерное зрение представляет собой разработку и внедрение
+                        инновационных систем...
+                    </p>
+                    <div id="shrink1" class="md:hidden max-w-[588px] hidden flex-col border-b pb-2">
+                        <p class="overflow-hidden font-medium text-sm text-[#7D8896] w-full border-[#D9D9D9] mb-4">
+                            Мы разрабатываем системы искусственного интеллекта под ваши
+                            задачи, опираясь на
+                            наш опыт в широком спектре областей IT, давая при этом полную
+                            прозрачность хода проекта.
+                        </p>
+                        <button
+                            class="py-5 rounded-lg px-16 hover:bg-white border hover:border-[#006AFF] hover:text-[#006AFF] transition-all bg-[#006AFF] font-semibold text-white text-base">Обсудить
+                            проект</button>
+                    </div>
+                    <p class="md:flex hidden text-[#37485D] font-medium text-lg leading-7 mb-8">
+                        Разработка и внедрение
+                        AI нейронных сетей в медицине для ранней диагностики заболеваний
+                        может значительно помочь врачам
+                        в поддержке и принятии решений, повысить точность и качество
+                        постановки диагноза, а также
+                        значительно сократить время, затрачиваемое на обследование пациента.
+                        Искусственный интеллект в
+                        медицине может быть применен для работы с различными видами
+                        медицинских исследований.</p>
+                    <button
+                        class="hidden md:flex gap-[2px] hover:bg-[#006AFF] border border-[#006AFF] justify-center rounded-3xl items-center w-full text-center py-4 text-[#006AFF] hover:text-white transition-all font-semibold text-lg leading-7">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_174_56)">
+                                <path d="M22.6663 9.33337L9.33301 22.6667" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M10.667 9.33337H22.667V21.3334" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_174_56">
+                                    <rect width="32" height="32" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Обсудить проект
+                    </button>
+                </div>
+                <img class="mb-2 md:mb-10 md:flex hidden max-w-[500px]" src="./img/page4/Group 80.png" alt="">
+            </div>
+            <div class="flex justify-between items-center">
+                <div class="max-w-[588px]">
+                    <h3
+                        class="font-semibold text-2xl leading-6 flex items-center md:text-4xl md:leading-10 mb-6 justify-between w-full md:max-w-[744px]">
+                        Разработка ИИ под ваши <br class="md:hidden flex">требования <br
+                            class="md:hidden flex">процессов <img id="arrowBtn"
+                            class="md:hidden flex cursor-pointer w-8" src="./img/section/Btn.png" alt="">
+                    </h3>
+                    <p id="shrink"
+                        class="md:hidden flex overflow-hidden font-medium text-sm text-[#7D8896] w-full pb-4 border-b border-[#D9D9D9]">
+                        Компьютерное зрение представляет собой разработку и внедрение
+                        инновационных систем...
+                    </p>
+                    <div id="shrink1" class="md:hidden max-w-[588px] hidden flex-col border-b pb-2">
+                        <p class="overflow-hidden font-medium text-sm text-[#7D8896] w-full border-[#D9D9D9] mb-4">
+                            Мы разрабатываем системы искусственного интеллекта под ваши
+                            задачи, опираясь на
+                            наш опыт в широком спектре областей IT, давая при этом полную
+                            прозрачность хода проекта.
+                        </p>
+                        <button
+                            class="py-5 rounded-lg px-16 hover:bg-white border hover:border-[#006AFF] hover:text-[#006AFF] transition-all bg-[#006AFF] font-semibold text-white text-base">Обсудить
+                            проект</button>
+                    </div>
+                    <p class="md:flex hidden text-[#37485D] font-medium text-lg leading-7 mb-8">
+                        Мы разрабатываем системы
+                        искусственного интеллекта под ваши задачи, опираясь на наш опыт в
+                        широком спектре областей IT,
+                        давая при этом полную прозрачность хода проекта.</p>
+                    <button
+                        class="hidden md:flex gap-[2px] hover:bg-[#006AFF] border border-[#006AFF] justify-center rounded-3xl items-center w-full text-center py-4 text-[#006AFF] hover:text-white transition-all font-semibold text-lg leading-7">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_174_56)">
+                                <path d="M22.6663 9.33337L9.33301 22.6667" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M10.667 9.33337H22.667V21.3334" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_174_56">
+                                    <rect width="32" height="32" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Обсудить проект
+                    </button>
+                </div>
+                <img class="mb-2 md:mb-10 md:flex hidden max-w-[500px]" src="./img/page4/Group 82.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="mx-auto pt-20 pb-20">
+        <div class="max-w-[1200px] mx-auto px-4">
+            <h2 class="font-semibold md:text-6xl md:mb-20 text-3xl md:text-left text-center">
+                Этапы разработки
+                искусственного интеллекта</h2>
+        </div>
+        <div class="max-w-[1200px] px-4 mx-auto grid md:grid-cols-2 gap-6">
+            <div class="max-w-[540px] mx-auto">
+                <img class="w-[147px] h-[132px] mx-auto " src="./img/Group 75.png" alt="">
+                <p class="font-semibold text-2xl text-center pt-8">Анализ бизнес-требований
+                    и сферы применения
+                    искусственного
+                    интеллекта (нейросетей)</p>
+                <p class="text-center pt-8 font-medium text-[18px]  ">Наши опытные
+                    специалисты проведут анализ ваших
+                    бизнес-требований и внимательно изучат сферу деятельности вашей
+                    компании. Мы оперативно свяжемся с
+                    вами, чтобы
+                    обсудить результаты и предложить наилучшие решения, которые могут помочь
+                    вашему бизнесу процветать.
+                </p>
+            </div>
+            <div class="max-w-[540px] mx-auto">
+                <img class="w-[147px] h-[132px] mx-auto " src="./img/Group 75 (1).png" alt="">
+                <p class="font-semibold text-2xl text-center pt-8">Старт работ</p>
+                <p class="text-center pt-8  font-medium text-[18px] ">Начало работы
+                    предполагает определение целии
+                    постановку
+                    задачи, а также разработку плана для достижения поставленных целей.
+                    Технические этапы выполнения
+                    представляют
+                    собой последовательность действий, которые необходимо выполнить для
+                    достижения желаемого результата.
+                </p>
+            </div>
+            <div class="max-w-[540px] mx-auto">
+                <img class="w-[147px] h-[132px] mx-auto " src="./img/Group 75 (2).png" alt="">
+                <p class="font-semibold text-2xl text-center pt-8">Разработка</p>
+                <p class="text-center pt-8  font-medium text-[18px]  ">На этом моменте
+                    начинается активное создание
+                    кода.
+                    Разработчики пишут программу в соответствиис требованиями и дизайном,
+                    определенными на предыдущих
+                    этапах.
+                    Разработка может включать в себя создание различных модулей, компонентов
+                    и функциональных частей
+                    нейронных
+                    сетей</p>
+            </div>
+            <div class="max-w-[540px] mx-auto"><img class="w-[147px] h-[132px] mx-auto " src="./img/Group 75 (3).png"
+                    alt="">
+                <p class="font-semibold text-2xl text-center pt-8">Тестирование и интеграция
+                </p>
+                <p class="text-center pt-8  font-medium text-[18px]  ">В рамках этого этапа
+                    происходит проверка качества
+                    программного продукта с помощью различных видов тестирования, включая
+                    модульное, интеграционное,
+                    функциональное и другие виды. После тестирования ПО выпускается в
+                    продакшн. Оно устанавливается на
+                    целевой
+                    сервер или распространяется конечным пользователям.</p>
+            </div>
+
+        </div>
+        <div class="max-w-[540px] px-4 mx-auto">
+            <img class="w-[147px] h-[132px] mx-auto " src="./img/Group 75 (4).png" alt="">
+            <p class="font-semibold text-2xl text-center pt-8">Поддержка</p>
+            <p class="text-center pt-8  font-medium text-[18px] ">После выпуска ПО
+                продолжает поддерживаться и
+                обновляться.
+                Этап может включать в себя внедрение обновлений, исправление возникающих
+                ошибок, предоставление
+                технической
+                поддержки пользователям и реагирование на запросы на изменение или
+                добавление необходимых функций.</p>
+        </div>
+    </section>
+    <section class="mb-20 px-[20px]">
+        <div class="max-w-[1200px] px-4 mx-auto animate__animated   animate__backInDown  ">
+            <h2 class="font-semibold text-3xl md:text-6xl text-black pb-[64px] mt-20 md:text-left text-center ">
+                Преимущества
+                внедрения искусственного
+                интеллекта
+                <br>
+                в бизнес процессы
+            </h2>
+            <hr class="md:max-w-[1200px] max-w-[288px] mx-auto">
+        </div>
+        <div class="">
+            <div
+                class="md:max-w-[1200px] max-w-[288px] pt-10 mx-auto md:flex justify-between  mb-20 animate__animated   animate__backInDown  ">
+                <div class="bg-green-40 ">
+                    <img src="./img/Group 37.png" alt="">
+                    <h3 class="font-semibold text-4xl max-w-[588px] mb-[20px]">Высокая <br>
+                        эффективность</h3>
+                </div>
+                <div class="animate__animated   animate__backInDown md:text-left justify-center">
+                    <p class="md:max-w-[588px] max-w-[288px] ">Одним из самых значимых
+                        достоинств искусственного
+                        интеллекта
+                        является его
+                        способность повышать эффективность. Системы ИИ могут
+                        автоматизировать задачи, которые в
+                        противном случае
+                        требовали бы участия людей, что освобождает время для более важных
+                        дел. Например, искусственный
+                        интеллект
+                        может мгновенно анализировать огромные объемы данных и предоставлять
+                        информацию и рекомендации в
+                        режиме
+                        реального времени, что человеку было бы трудно осуществить.</p>
+                </div>
+            </div>
+            <div class="animate__animated   animate__backInDown ">
+                <hr class="md:max-w-[1200px] max-w-[288px] mx-auto">
+            </div>
+            <div
+                class="md:max-w-[1200px]  max-w-[288px] pt-10 mx-auto md:flex justify-between  mb-20 animate__animated  animate__backInUp ">
+                <div class="bg-green-40">
+                    <img src="./img/Group 37 (1).png" alt="">
+                    <h3 class="font-semibold text-4xl max-w-[588px] mb-5">Экономия<br>
+                        средств</h3>
+                </div>
+                <div>
+                    <p class="md:max-w-[588px] max-w-[288px] ">Искусственный интеллект также
+                        способен снижать затраты
+                        для бизнеса,
+                        автоматизируя
+                        задачи, которые обычно требовали бы участия человека. Благодаря
+                        системам искусственного
+                        интеллекта, компании
+                        могут значительно сократить трудозатраты и увеличить
+                        производительность. Например, система
+                        искусственного
+                        интеллекта может обрабатывать запросы клиентов в области
+                        обслуживания, что освобождает
+                        сотрудников для
+                        выполнения других важных задач..</p>
+                </div>
+            </div>
+            <hr class="md:max-w-[1200px] max-w-[288px] animate__animated  animate__backInUp mx-auto">
+            <div
+                class="md:max-w-[1200px] max-w-[288px] pt-10 mx-auto md:flex justify-between  mb-20 animate__animated  animate__backInUp ">
+                <div class="bg-green-40">
+                    <img src="./img/Group 37 (2).png" alt="">
+                    <h3 class="font-semibold text-4xl max-w-[588px] mb-5">Высокая <br>
+                        эффективность</h3>
+                </div>
+                <div>
+                    <p class="md:max-w-[588px] max-w-[288px]:  ">Искусственный интеллект
+                        способен значительно облегчить
+                        процесс
+                        принятия решений,
+                        предоставив ценную информацию и рекомендации на основе имеющихся
+                        данных. Благодаря алгоритмам
+                        искусственного
+                        интеллекта, огромные объемы информации могут быть проанализированы
+                        для выявления закономерностей
+                        и
+                        тенденций, что в свою очередь помогает компаниям формировать более
+                        обоснованные мнения.
+                        Например, система
+                        искусственного интеллекта может помочь розничным продавцам
+                        определить наиболее прибыльные
+                        продукты для
+                        хранения на основе информации о предыдущих сделках. Еще одним важным
+                        применением искусственного
+                        интеллекта
+                        является его способность прогнозировать тенденции запросов и
+                        соответственно оптимизировать
+                        инвестиции
+                        финансовых учреждений.</p>
+                </div>
+            </div>
+        </div>
+        <hr class="mx-auto animate__animated  animate__backInUp md:max-w-[1200px] max-w-w-[288px] ">
+    </section>
+    <section class="max-w-[1200px] mx-auto pl-5 pr-5">
+        <div class="mb-20  ">
+            <h2 class="font-semibold md:text-6xl text-3xl ">Реализованные проекты</h2>
+        </div>
+        <div>
+            <div>
+                <section class="hero  ">
+                    <div class="hero-continer max-w-[1200px] mx-auto  ">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper scale-100">
+                                <div class="swiper-slide scale-0.8  transition-all  scale-x-100"> <img
+                                        class="scale-x-100 swipper-img w-full h-[300px] scale-0.8 object-cover transition-all "
+                                        src="./img/Rectangle 8 (1).png  " alt=""></div>
+                                <div class="swiper-slide scale-0.8  transition-all  scale-x-100"> <img
+                                        class="scale-x-100 swipper-img w-full h-[300px] scale-0.8 object-cover transition-all "
+                                        src="./img/Rectangle 9.png " alt=""> </div>
+                                <div class="swiper-slide scale-0.8  transition-all  scale-x-100"> <img
+                                        class="scale-x-100 swipper-img w-full h-[300px] scale-0.8 object-cover transition-all "
+                                        src="./img/Rectangle 8 (2).png" alt=""> </div>
+                                <div class="swiper-slide scale-0.8  transition-all  scale-x-100"> <img
+                                        class="scale-x-100 swipper-img w-full h-[300px] scale-0.8 object-cover transition-all "
+                                        src="./img/Rectangle 8 (1).png" alt=""> </div>
+                                <div class="swiper-slide scale-0.8  transition-all  scale-x-100"> <img
+                                        class="scale-x-100 swipper-img w-full h-[300px] scale-0.8 object-cover transition-all "
+                                        src="./img/Rectangle 9.png" alt=""> </div>
+                                <div class="swiper-slide scale-0.8  transition-all  scale-x-100"> <img
+                                        class="scale-x-100 swipper-img w-full h-[300px] scale-0.8 object-cover transition-all "
+                                        src="./img/Rectangle 8 (1).png" alt=""> </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <button class="swiper-button-next1 w-9 absolute right-[425px]"><img src="./img/page4/Frame (8).png" alt=""></button>
+                        <button class="swiper-button-prev1 w-9 absolute right-[465px]"><img src="./img/page4/Frame (7).png" alt=""></button>
+                </section>
+                <section class="text-[#3A4A5F]">
+                    <div class=" max-w-[744px]">
+                        <p class="font-medium text-sm mb-2 text-[#6B7787] pt-10">Кейс 1:</p>
+                        <h3 class="font-semibold md:text-4xl    text-2xl ">
+                            Внедрение системы управления контентом на базе IA-технологий для крупного образовательного
+                            портала</h3>
+                    </div>
+                    <div class="pb-20">
+                        <div class="md:flex gap-[108px] pt-10 max-w-[744px]   ">
+                            <p class="font-medium text-sm mb-5 text-[#6B7787] ">Заказчик:</p>
+                            <div>
+                                <p class="  mx-auto font-medium text-xl  ">Крупный образовательный портал</p>
+                            </div>
+                        </div>
+                        <div class="md:flex gap-[108px]  pt-10 max-w-[744px] ">
+                            <p class="font-medium text-sm mb-2 text-[#6B7787]">Проблема:</p>
+                            <div>
+                                <p class="max-w-[517px]  font-medium text-xl">Неэффективное управление контентом,
+                                    приводящее
+                                    к задержкам в
+                                    публикации материалов, а также к низкому качеству контента. Всё это негативно
+                                    отражалось на имидже
+                                    портала
+                                    и его привлекательности для пользователей.</p>
+                            </div>
+                        </div>
+                        <div class=" md:flex gap-[108px] pt-10 max-w-[744px]">
+                            <p class="font-medium text-sm mb-5 text-[#6B7787]">Решение:</p>
+                            <div>
+                                <p class="max-w-[517px]  font-medium text-xl ">Разработана система управления контентом
+                                    на
+                                    основе
+                                    искусственного интеллекта. Система анализирует запросы пользователей, оценивает
+                                    качество контента и
+                                    предлагает рекомендации по его улучшению, а также помогает автоматизировать процесс
+                                    публикации новых
+                                    материалов и контролирует соблюдение авторских прав.</p>
+                            </div>
+                        </div>
+                        <div class="md:flex gap-[108px]  pt-10 max-w-[744px]">
+                            <p class="font-medium text-sm text-[#6B7787] mb-5">Результат:</p>
+                            <div>
+                                <p class="max-w-[517px]  font-medium text-xl ">Образовательный портал смог улучшить свои
+                                    позиции в рейтингах,
+                                    увеличить аудиторию и повысить качество предоставляемой информации.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    </section>
+    <section class="pt-20 pb-10 md:py-20 bg-[#A6B4C729] overflow-hidden">
+        <div class="max-w-[1240px] px-4 mx-auto">
+            <h3 class="text-[#091D37] font-semibold text-3xl mb-6 leading-9 md:text-[64px] md:mb-16">
+                О компании</h3>
+            <img class="mb-7 max-w-[187px] mx-auto md:hidden flex" src="./img/section1/siteCompany.png" alt="">
+            <p class="max-w-[288px] md:hidden flex text-[#091D37] opacity-80 text-base leading-[16px] md:leading-6">
+                Команда профессионалов Смарт Спейс Лаб специализируется на создании и
+                внедрении инновационных решений
+                для вашего бизнеса. Мы предоставляем полный спектр услуг, начиная от анализа
+                потребностей и оценки
+                бизнес-процессов, и заканчивая интеграцией разработанных решений и обучением
+                персонала.
+                <br><br>
+                Наша цель - помочь компаниям сэкономить деньги, оптимизировать процессы и
+                принимать более качественные
+                решения. Мы используем передовые технологии и методы искусственного
+                интеллекта, а также разрабатываем
+                индивидуальные подходы к каждому клиенту.
+                <br><br>
+                Мы стремимся, чтобы наши решения были простыми в использовании, гибкими и
+                адаптивными к изменяющимся
+                условиям рынка. Наше агентство всегда готово к сотрудничеству и открыто для
+                новых идей и проектов.
+                Вместе мы сможем достигнуть новых высот и успехов в бизнесе!
+            </p>
+            <div class="items-center gap-20 justify-between md:flex hidden">
+                <p class="max-w-[720px] font-medium leading-[16px] md:leading-7 text-[#091D37] opacity-80 text-lg">
+                    Команда профессионалов Смарт Спейс Лаб специализируется на создании и
+                    внедрении инновационных
+                    решений для вашего бизнеса. Мы предоставляем полный спектр услуг,
+                    начиная от анализа потребностей и
+                    оценки бизнес-процессов, и заканчивая интеграцией разработанных решений
+                    и обучением персонала.
+                    <br><br>
+                    Наша цель - помочь компаниям сэкономить деньги, оптимизировать процессы
+                    и принимать более
+                    качественные решения. Мы используем передовые технологии и методы
+                    искусственного интеллекта, а также
+                    разрабатываем индивидуальные подходы к каждому клиенту.
+                    <br><br>
+                    Мы стремимся, чтобы наши решения были простыми в использовании, гибкими
+                    и адаптивными к изменяющимся
+                    условиям рынка. Наше агентство всегда готово к сотрудничеству и открыто
+                    для новых идей и проектов.
+                    Вместе мы сможем достигнуть новых высот и успехов в бизнесе!
+                </p>
+                <img class="max-w-[420px]" src="./img/section1/siteCompany.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="py-20 bg-[#A6B4C729] overflow-hidden">
+        <div class="max-w-[1240px] mx-auto px-2">
+            <h2 class="mb-8 md:mb-11 text-[#091D37] font-semibold text-3xl md:text-[64px]">
+                Часто <br class="md:hidden flex flex-col"> задаваемые <br class="md:hidden flex flex-col"> вопросы?</h2>
+            <div class="flex flex-col gap-2">
+                <div class="max-w-[1200px] bg-white rounded-3xl md:pl-6 md:pr-[28px] md:py-[28px] p-3">
+                    <div class="flex justify-between">
+                        <h4 class="text-[#091D37] font-semibold text-lg md:text-[28px]">
+                            Какие задачи может <br class="md:hidden flex flex-col">
+                            выполнять искусственный <br class="md:hidden flex flex-col">
+                            интеллект для бизнеса?</h4>
+                        <button id="arrow" class=""><img src="./img/section2/arrow.png" class="w-6 md:w-8"
+                                alt=""></button>
+                    </div>
+                    <div class="">
+                        <p id="overflow"
+                            class="text-[#091D37] max-w-[280px] md:max-w-[720px] mt-10 hidden leading-7 opacity-60 font-medium text-lg">
+                            Нейронные сети с прямой связью (FNN), также известные как
+                            многослойные персептроны (MLP),
+                            являются самым основным типом. Они состоят из входного слоя,
+                            одного или нескольких скрытых
+                            слоев
+                            и выходного слоя. Информация течет в одном направлении, от
+                            входного слоя через скрытые слои
+                            к
+                            выходному слою, без каких-либо петель или обратных связей. Они в
+                            основном используются для
+                            таких
+                            задач, как классификация и регрессия.
+
+                            Сверточные нейронные сети (CNN) широко используются для анализа
+                            изображений и видео. Они
+                            используют концепцию свертки, когда фильтры или ядра применяются
+                            к входным данным для
+                            извлечения
+                            значимых признаков. CNN преуспевают в захвате пространственных
+                            отношений и локальных
+                            закономерностей на изображениях с помощью сверточных слоев,
+                            объединяющих слоев и полностью
+                            связанных слоев. Они известны своей способностью автоматически
+                            изучать иерархические
+                            представления.
+
+                            Рекуррентные нейронные сети (RNN) предназначены для обработки
+                            последовательных данных и
+                            имеют
+                            повторяющиеся соединения, позволяющие передавать информацию с
+                            предыдущих шагов на текущий.
+                            Этот
+                            повторяющийся характер делает их пригодными для таких задач, как
+                            обработка естественного
+                            языка,
+                            распознавание речи и анализ временных рядов. RNN могут хранить
+                            память о прошлых входных
+                            данных,
+                            что позволяет им захватывать временные зависимости.
+
+                            Сети с длинной кратковременной памятью (LSTM). LSTM – это тип
+                            RNN, предназначенный для
+                            преодоления проблемы исчезающего градиента, которая может
+                            препятствовать изучению
+                            долгосрочных
+                            зависимостей. LSTM имеют специализированные ячейки памяти,
+                            которые выборочно сохраняют или
+                            забывают информацию в течение нескольких временных шагов. Они
+                            эффективно применяются в
+                            задачах,
+                            требующих фиксации долгосрочных зависимостей, таких как языковое
+                            моделирование, машинный
+                            перевод
+                            и распознавание речи.
+
+                            Сети закрытых рекуррентных единиц (GRU). GRU – это еще один
+                            вариант RNN, который решает
+                            проблему
+                            исчезающего градиента. Они имеют функциональность, аналогичную
+                            LSTM, но с упрощенной
+                            архитектурой. ГРУ имеют меньше вентилей и ячеек памяти, что
+                            делает их вычислительно
+                            эффективными. Они часто используются в задачах, требующих
+                            фиксации зависимостей в
+                            последовательных данных.
+
+                            Самоорганизующиеся карты (SOM), также известные как карты
+                            Кохонена, представляют собой
+                            неконтролируемые нейронные сети, используемые для кластеризации
+                            и визуализации. Они
+                            используют
+                            соревновательное обучение для отображения многомерных входных
+                            данных на сетку более низкой
+                            размерности. SOM могут фиксировать топологические отношения
+                            между точками данных, что
+                            позволяет
+                            эффективно кластеризовать и визуализировать сложные структуры
+                            данных.
+
+                            Генеративно-состязательные сети (GAN) состоят из двух нейронных
+                            сетей – генератора и
+                            дискриминатора, которые конкурируют друг с другом. Сеть
+                            генераторов создает синтетические
+                            образцы данных, в то время как сеть дискриминаторов пытается
+                            отличить настоящие образцы от
+                            поддельных. GAN используются для таких задач, как создание
+                            реалистичных изображений,
+                            улучшение
+                            дополнения данных и синтез данных.
+
+                            Это основные типы нейронных сетей, и есть еще много
+                            специализированных архитектур и
+                            вариаций,
+                            адаптированных для конкретных приложений. Выбор типа нейронной
+                            сети зависит от характера
+                            проблемы, имеющихся данных, желаемых результатов и имеющегося
+                            бюджета.
+                        </p>
+                    </div>
+                </div>
+                <div class="max-w-[1200px] bg-white rounded-3xl md:pl-6 md:pr-[28px] md:py-[28px] p-3">
+                    <div class="flex md:justify-between">
+                        <h4 class="text-[#091D37] font-semibold text-lg w-full md:text-[28px]">
+                            С чего начать если я
+                            решил <br class="md:hidden flex flex-col"> внедрить ИИ в
+                            свой
+                            бизнес?</h4>
+                        <button id="arrow" class=""><img src="./img/section2/arrow.png" class="w-6 md:w-8"
+                                alt=""></button>
+                    </div>
+                    <div class="">
+                        <p id="overflow"
+                            class="text-[#091D37] max-w-[280px] md:max-w-[720px] mt-10 opacity-60 font-medium text-lg hidden leading-7">
+                            Нейронные сети с прямой связью (FNN), также известные как
+                            многослойные персептроны (MLP),
+                            являются самым основным типом. Они состоят из входного слоя,
+                            одного или нескольких скрытых
+                            слоев
+                            и выходного слоя. Информация течет в одном направлении, от
+                            входного слоя через скрытые слои
+                            к
+                            выходному слою, без каких-либо петель или обратных связей. Они в
+                            основном используются для
+                            таких
+                            задач, как классификация и регрессия.
+
+                            Сверточные нейронные сети (CNN) широко используются для анализа
+                            изображений и видео. Они
+                            используют концепцию свертки, когда фильтры или ядра применяются
+                            к входным данным для
+                            извлечения
+                            значимых признаков. CNN преуспевают в захвате пространственных
+                            отношений и локальных
+                            закономерностей на изображениях с помощью сверточных слоев,
+                            объединяющих слоев и полностью
+                            связанных слоев. Они известны своей способностью автоматически
+                            изучать иерархические
+                            представления.
+
+                            Рекуррентные нейронные сети (RNN) предназначены для обработки
+                            последовательных данных и
+                            имеют
+                            повторяющиеся соединения, позволяющие передавать информацию с
+                            предыдущих шагов на текущий.
+                            Этот
+                            повторяющийся характер делает их пригодными для таких задач, как
+                            обработка естественного
+                            языка,
+                            распознавание речи и анализ временных рядов. RNN могут хранить
+                            память о прошлых входных
+                            данных,
+                            что позволяет им захватывать временные зависимости.
+
+                            Сети с длинной кратковременной памятью (LSTM). LSTM – это тип
+                            RNN, предназначенный для
+                            преодоления проблемы исчезающего градиента, которая может
+                            препятствовать изучению
+                            долгосрочных
+                            зависимостей. LSTM имеют специализированные ячейки памяти,
+                            которые выборочно сохраняют или
+                            забывают информацию в течение нескольких временных шагов. Они
+                            эффективно применяются в
+                            задачах,
+                            требующих фиксации долгосрочных зависимостей, таких как языковое
+                            моделирование, машинный
+                            перевод
+                            и распознавание речи.
+
+                            Сети закрытых рекуррентных единиц (GRU). GRU – это еще один
+                            вариант RNN, который решает
+                            проблему
+                            исчезающего градиента. Они имеют функциональность, аналогичную
+                            LSTM, но с упрощенной
+                            архитектурой. ГРУ имеют меньше вентилей и ячеек памяти, что
+                            делает их вычислительно
+                            эффективными. Они часто используются в задачах, требующих
+                            фиксации зависимостей в
+                            последовательных данных.
+
+                            Самоорганизующиеся карты (SOM), также известные как карты
+                            Кохонена, представляют собой
+                            неконтролируемые нейронные сети, используемые для кластеризации
+                            и визуализации. Они
+                            используют
+                            соревновательное обучение для отображения многомерных входных
+                            данных на сетку более низкой
+                            размерности. SOM могут фиксировать топологические отношения
+                            между точками данных, что
+                            позволяет
+                            эффективно кластеризовать и визуализировать сложные структуры
+                            данных.
+
+                            Генеративно-состязательные сети (GAN) состоят из двух нейронных
+                            сетей – генератора и
+                            дискриминатора, которые конкурируют друг с другом. Сеть
+                            генераторов создает синтетические
+                            образцы данных, в то время как сеть дискриминаторов пытается
+                            отличить настоящие образцы от
+                            поддельных. GAN используются для таких задач, как создание
+                            реалистичных изображений,
+                            улучшение
+                            дополнения данных и синтез данных.
+
+                            Это основные типы нейронных сетей, и есть еще много
+                            специализированных архитектур и
+                            вариаций,
+                            адаптированных для конкретных приложений. Выбор типа нейронной
+                            сети зависит от характера
+                            проблемы, имеющихся данных, желаемых результатов и имеющегося
+                            бюджета.
+                        </p>
+                    </div>
+                </div>
+                <div class="max-w-[1200px] bg-white rounded-3xl md:pl-6 md:pr-[28px] md:py-[28px] p-3">
+                    <div class="flex justify-between">
+                        <h4 class="text-[#091D37] font-semibold text-lg md:text-[28px]">
+                            Каковы гарантии точности <br class="md:hidden flex flex-col">
+                            работы
+                            искусственного <br class="md:hidden flex flex-col">
+                            интеллекта?</h4>
+                        <button id="arrow" class=""><img src="./img/section2/arrow.png" class="w-6 md:w-8"
+                                alt=""></button>
+                    </div>
+                    <div class="">
+                        <p id="overflow"
+                            class="text-[#091D37] max-w-[280px] md:max-w-[720px] mt-10 hidden opacity-60 font-medium text-lg leading-7">
+                            Нейронные сети с прямой связью (FNN), также известные как
+                            многослойные персептроны (MLP),
+                            являются самым основным типом. Они состоят из входного слоя,
+                            одного или нескольких скрытых
+                            слоев
+                            и выходного слоя. Информация течет в одном направлении, от
+                            входного слоя через скрытые слои
+                            к
+                            выходному слою, без каких-либо петель или обратных связей. Они в
+                            основном используются для
+                            таких
+                            задач, как классификация и регрессия.
+
+                            Сверточные нейронные сети (CNN) широко используются для анализа
+                            изображений и видео. Они
+                            используют концепцию свертки, когда фильтры или ядра применяются
+                            к входным данным для
+                            извлечения
+                            значимых признаков. CNN преуспевают в захвате пространственных
+                            отношений и локальных
+                            закономерностей на изображениях с помощью сверточных слоев,
+                            объединяющих слоев и полностью
+                            связанных слоев. Они известны своей способностью автоматически
+                            изучать иерархические
+                            представления.
+
+                            Рекуррентные нейронные сети (RNN) предназначены для обработки
+                            последовательных данных и
+                            имеют
+                            повторяющиеся соединения, позволяющие передавать информацию с
+                            предыдущих шагов на текущий.
+                            Этот
+                            повторяющийся характер делает их пригодными для таких задач, как
+                            обработка естественного
+                            языка,
+                            распознавание речи и анализ временных рядов. RNN могут хранить
+                            память о прошлых входных
+                            данных,
+                            что позволяет им захватывать временные зависимости.
+
+                            Сети с длинной кратковременной памятью (LSTM). LSTM – это тип
+                            RNN, предназначенный для
+                            преодоления проблемы исчезающего градиента, которая может
+                            препятствовать изучению
+                            долгосрочных
+                            зависимостей. LSTM имеют специализированные ячейки памяти,
+                            которые выборочно сохраняют или
+                            забывают информацию в течение нескольких временных шагов. Они
+                            эффективно применяются в
+                            задачах,
+                            требующих фиксации долгосрочных зависимостей, таких как языковое
+                            моделирование, машинный
+                            перевод
+                            и распознавание речи.
+
+                            Сети закрытых рекуррентных единиц (GRU). GRU – это еще один
+                            вариант RNN, который решает
+                            проблему
+                            исчезающего градиента. Они имеют функциональность, аналогичную
+                            LSTM, но с упрощенной
+                            архитектурой. ГРУ имеют меньше вентилей и ячеек памяти, что
+                            делает их вычислительно
+                            эффективными. Они часто используются в задачах, требующих
+                            фиксации зависимостей в
+                            последовательных данных.
+
+                            Самоорганизующиеся карты (SOM), также известные как карты
+                            Кохонена, представляют собой
+                            неконтролируемые нейронные сети, используемые для кластеризации
+                            и визуализации. Они
+                            используют
+                            соревновательное обучение для отображения многомерных входных
+                            данных на сетку более низкой
+                            размерности. SOM могут фиксировать топологические отношения
+                            между точками данных, что
+                            позволяет
+                            эффективно кластеризовать и визуализировать сложные структуры
+                            данных.
+
+                            Генеративно-состязательные сети (GAN) состоят из двух нейронных
+                            сетей – генератора и
+                            дискриминатора, которые конкурируют друг с другом. Сеть
+                            генераторов создает синтетические
+                            образцы данных, в то время как сеть дискриминаторов пытается
+                            отличить настоящие образцы от
+                            поддельных. GAN используются для таких задач, как создание
+                            реалистичных изображений,
+                            улучшение
+                            дополнения данных и синтез данных.
+
+                            Это основные типы нейронных сетей, и есть еще много
+                            специализированных архитектур и
+                            вариаций,
+                            адаптированных для конкретных приложений. Выбор типа нейронной
+                            сети зависит от характера
+                            проблемы, имеющихся данных, желаемых результатов и имеющегося
+                            бюджета.
+                        </p>
+                    </div>
+                </div>
+                <div class="max-w-[1200px] bg-white rounded-3xl md:pl-6 md:pr-[28px] md:py-[28px] p-3">
+                    <div class="flex justify-between">
+                        <h4 class="text-[#091D37] font-semibold text-lg md:text-[28px]">Как
+                            долго займет обучение <br class="md:hidden flex flex-col">
+                            модели
+                            искусственного <br class="md:hidden flex flex-col">
+                            интеллекта?</h4>
+                        <button id="arrow" class=""><img src="./img/section2/arrow.png" class="w-6 md:w-8"
+                                alt=""></button>
+                    </div>
+                    <div class="">
+                        <p id="overflow"
+                            class="text-[#091D37] max-w-[280px] md:max-w-[720px] mt-10 hidden leading-7 opacity-60 font-medium text-lg">
+                            Нейронные сети с прямой связью (FNN), также известные как
+                            многослойные персептроны (MLP),
+                            являются самым основным типом. Они состоят из входного слоя,
+                            одного или нескольких скрытых
+                            слоев
+                            и выходного слоя. Информация течет в одном направлении, от
+                            входного слоя через скрытые слои
+                            к
+                            выходному слою, без каких-либо петель или обратных связей. Они в
+                            основном используются для
+                            таких
+                            задач, как классификация и регрессия.
+
+                            Сверточные нейронные сети (CNN) широко используются для анализа
+                            изображений и видео. Они
+                            используют концепцию свертки, когда фильтры или ядра применяются
+                            к входным данным для
+                            извлечения
+                            значимых признаков. CNN преуспевают в захвате пространственных
+                            отношений и локальных
+                            закономерностей на изображениях с помощью сверточных слоев,
+                            объединяющих слоев и полностью
+                            связанных слоев. Они известны своей способностью автоматически
+                            изучать иерархические
+                            представления.
+
+                            Рекуррентные нейронные сети (RNN) предназначены для обработки
+                            последовательных данных и
+                            имеют
+                            повторяющиеся соединения, позволяющие передавать информацию с
+                            предыдущих шагов на текущий.
+                            Этот
+                            повторяющийся характер делает их пригодными для таких задач, как
+                            обработка естественного
+                            языка,
+                            распознавание речи и анализ временных рядов. RNN могут хранить
+                            память о прошлых входных
+                            данных,
+                            что позволяет им захватывать временные зависимости.
+
+                            Сети с длинной кратковременной памятью (LSTM). LSTM – это тип
+                            RNN, предназначенный для
+                            преодоления проблемы исчезающего градиента, которая может
+                            препятствовать изучению
+                            долгосрочных
+                            зависимостей. LSTM имеют специализированные ячейки памяти,
+                            которые выборочно сохраняют или
+                            забывают информацию в течение нескольких временных шагов. Они
+                            эффективно применяются в
+                            задачах,
+                            требующих фиксации долгосрочных зависимостей, таких как языковое
+                            моделирование, машинный
+                            перевод
+                            и распознавание речи.
+
+                            Сети закрытых рекуррентных единиц (GRU). GRU – это еще один
+                            вариант RNN, который решает
+                            проблему
+                            исчезающего градиента. Они имеют функциональность, аналогичную
+                            LSTM, но с упрощенной
+                            архитектурой. ГРУ имеют меньше вентилей и ячеек памяти, что
+                            делает их вычислительно
+                            эффективными. Они часто используются в задачах, требующих
+                            фиксации зависимостей в
+                            последовательных данных.
+
+                            Самоорганизующиеся карты (SOM), также известные как карты
+                            Кохонена, представляют собой
+                            неконтролируемые нейронные сети, используемые для кластеризации
+                            и визуализации. Они
+                            используют
+                            соревновательное обучение для отображения многомерных входных
+                            данных на сетку более низкой
+                            размерности. SOM могут фиксировать топологические отношения
+                            между точками данных, что
+                            позволяет
+                            эффективно кластеризовать и визуализировать сложные структуры
+                            данных.
+
+                            Генеративно-состязательные сети (GAN) состоят из двух нейронных
+                            сетей – генератора и
+                            дискриминатора, которые конкурируют друг с другом. Сеть
+                            генераторов создает синтетические
+                            образцы данных, в то время как сеть дискриминаторов пытается
+                            отличить настоящие образцы от
+                            поддельных. GAN используются для таких задач, как создание
+                            реалистичных изображений,
+                            улучшение
+                            дополнения данных и синтез данных.
+
+                            Это основные типы нейронных сетей, и есть еще много
+                            специализированных архитектур и
+                            вариаций,
+                            адаптированных для конкретных приложений. Выбор типа нейронной
+                            сети зависит от характера
+                            проблемы, имеющихся данных, желаемых результатов и имеющегося
+                            бюджета.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="max-w-[1200px] bg-white rounded-3xl md:pl-6 md:pr-[28px] md:py-[28px] p-3">
+                    <div class="flex justify-between">
+                        <h4 class="text-[#091D37] font-semibold text-lg md:text-[28px]">
+                            Какие существует типы <br class="md:hidden flex flex-col">
+                            нейронных сетей?</h4>
+                        <button id="arrow" class=""><img src="./img/section2/arrow.png" class="w-6 md:w-8"
+                                alt=""></button>
+                    </div>
+                    <div class="">
+                        <p id="overflow"
+                            class="text-[#091D37] max-w-[280px] md:max-w-[720px] mt-10 hidden leading-7 opacity-60 font-medium text-lg">
+                            Нейронные сети с прямой связью (FNN), также известные как
+                            многослойные персептроны (MLP),
+                            являются самым основным типом. Они состоят из входного слоя,
+                            одного или нескольких скрытых
+                            слоев
+                            и выходного слоя. Информация течет в одном направлении, от
+                            входного слоя через скрытые слои
+                            к
+                            выходному слою, без каких-либо петель или обратных связей. Они в
+                            основном используются для
+                            таких
+                            задач, как классификация и регрессия.
+
+                            Сверточные нейронные сети (CNN) широко используются для анализа
+                            изображений и видео. Они
+                            используют концепцию свертки, когда фильтры или ядра применяются
+                            к входным данным для
+                            извлечения
+                            значимых признаков. CNN преуспевают в захвате пространственных
+                            отношений и локальных
+                            закономерностей на изображениях с помощью сверточных слоев,
+                            объединяющих слоев и полностью
+                            связанных слоев. Они известны своей способностью автоматически
+                            изучать иерархические
+                            представления.
+
+                            Рекуррентные нейронные сети (RNN) предназначены для обработки
+                            последовательных данных и
+                            имеют
+                            повторяющиеся соединения, позволяющие передавать информацию с
+                            предыдущих шагов на текущий.
+                            Этот
+                            повторяющийся характер делает их пригодными для таких задач, как
+                            обработка естественного
+                            языка,
+                            распознавание речи и анализ временных рядов. RNN могут хранить
+                            память о прошлых входных
+                            данных,
+                            что позволяет им захватывать временные зависимости.
+
+                            Сети с длинной кратковременной памятью (LSTM). LSTM – это тип
+                            RNN, предназначенный для
+                            преодоления проблемы исчезающего градиента, которая может
+                            препятствовать изучению
+                            долгосрочных
+                            зависимостей. LSTM имеют специализированные ячейки памяти,
+                            которые выборочно сохраняют или
+                            забывают информацию в течение нескольких временных шагов. Они
+                            эффективно применяются в
+                            задачах,
+                            требующих фиксации долгосрочных зависимостей, таких как языковое
+                            моделирование, машинный
+                            перевод
+                            и распознавание речи.
+
+                            Сети закрытых рекуррентных единиц (GRU). GRU – это еще один
+                            вариант RNN, который решает
+                            проблему
+                            исчезающего градиента. Они имеют функциональность, аналогичную
+                            LSTM, но с упрощенной
+                            архитектурой. ГРУ имеют меньше вентилей и ячеек памяти, что
+                            делает их вычислительно
+                            эффективными. Они часто используются в задачах, требующих
+                            фиксации зависимостей в
+                            последовательных данных.
+
+                            Самоорганизующиеся карты (SOM), также известные как карты
+                            Кохонена, представляют собой
+                            неконтролируемые нейронные сети, используемые для кластеризации
+                            и визуализации. Они
+                            используют
+                            соревновательное обучение для отображения многомерных входных
+                            данных на сетку более низкой
+                            размерности. SOM могут фиксировать топологические отношения
+                            между точками данных, что
+                            позволяет
+                            эффективно кластеризовать и визуализировать сложные структуры
+                            данных.
+
+                            Генеративно-состязательные сети (GAN) состоят из двух нейронных
+                            сетей – генератора и
+                            дискриминатора, которые конкурируют друг с другом. Сеть
+                            генераторов создает синтетические
+                            образцы данных, в то время как сеть дискриминаторов пытается
+                            отличить настоящие образцы от
+                            поддельных. GAN используются для таких задач, как создание
+                            реалистичных изображений,
+                            улучшение
+                            дополнения данных и синтез данных.
+
+                            Это основные типы нейронных сетей, и есть еще много
+                            специализированных архитектур и
+                            вариаций,
+                            адаптированных для конкретных приложений. Выбор типа нейронной
+                            сети зависит от характера
+                            проблемы, имеющихся данных, желаемых результатов и имеющегося
+                            бюджета.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-8 md:pt-20 pb-9 md:pb-[102px]">
+        <div class="max-w-[1240px] mx-auto px-4">
+            <h3 class="md:mb-16 text-[#091D37] font-semibold text-3xl mb-12 md:text-6xl">
+                Контакты</h3>
+            <iframe class="max-h-[160px] md:max-h-[460px] w-full mb-6 md:mb-10 rounded-3xl"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d511641.75343199394!2d29.43536002059045!3d59.93876937671336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsINCg0L7RgdGB0LjRjw!5e0!3m2!1sru!2s!4v1716880768098!5m2!1sru!2s"
+                width="max-w-[1200px]" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="md:flex items-start">
+                <div class="mr-16">
+                    <h5 class="text-[#A6B4C7] font-bold text-base mb-2">Адрес:</h5>
+                    <h4 class="font-semibold text-[#091D37] text-2xl md:text-4xl mb-2 md:mb-4">
+                        г. Санкт-Петербург</h4>
+                    <a target="_blank"
+                        href="https://www.google.com/maps/place/%D0%9D%D0%B0%D1%80%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80.,+18,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+190020/@59.903264,30.27196,17z/data=!4m6!3m5!1s0x4696308e09946fcf:0xa244fc418b12e706!8m2!3d59.903264!4d30.2745349!16s%2Fg%2F11csgmf8vz?entry=ttu"
+                        class="text-[#383838] leading-6 md:leading-7 opacity-60 font-medium text-base">​190020,
+                        Нарвский
+                        пр-кт, д. 18,
+                        <br class="md:flex flex-col hidden">
+                        литера А, офис 401, Россия
+                    </a>
+                </div>
+                <div class="md:mr-[117px] mb-10 md:mb-0">
+                    <h5 class="opacity-0 text-[#A6B4C7] font-bold text-base mb-2">Адрес:
+                    </h5>
+                    <h4 class="text-[#091D37] text-2xl mb-2 md:mb-4 md:text-4xl font-semibold">
+                        г. Ярославль</h4>
+                    <a target="_blank"
+                        href="https://www.google.com/maps/place/%D0%9D%D0%B0%D1%80%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80.,+18,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+190020/@59.903264,30.27196,17z/data=!4m6!3m5!1s0x4696308e09946fcf:0xa244fc418b12e706!8m2!3d59.903264!4d30.2745349!16s%2Fg%2F11csgmf8vz?entry=ttu"
+                        class="text-[#383838] w-full leading-6 md:leading-7 opacity-60 font-medium text-base">150000,
+                        ул.
+                        Чайковского, д.
+                        40А, <br class="md:hidden flex flex-col">
+                        офис
+                        203, Россия</a>
+                </div>
+                <div class="">
+                    <h5 class="text-[#A6B4C7] font-bold text-base mb-2">Телефон:</h5>
+                    <a href="tel:8 (995) 295-00-55"
+                        class="text-[#091D37] mb-3 md:mb-4 flex text-2xl md:text-4xl font-semibold">8
+                        (995)
+                        295-00-55</a>
+                    <div class="flex gap-3 md:gap-4">
+                        <a href="https://www.instagram.com/shifo_nur_koz_klinika/" target="_blank"><img
+                                class="md:w-10 w-8 rounded-xl" src="./img/footer/whatsUp.jpg" alt=""></a>
+                        <a target="_blank" href="https://t.me/bibixonimshifo"><img class="md:w-10 w-8"
+                                src="./img/footer/telegram.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 50,
+            slidesPerView: 1,
+            navigation: {
+                nextEl: ".swiper-button-next1",
+                prevEl: ".swiper-button-prev1",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            history: {
+                key: "slide",
+            },
+        });
+    </script>
+</body>
+
+</html>

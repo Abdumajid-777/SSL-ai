@@ -30,12 +30,13 @@ closeMenu.addEventListener('click', function () {
 
 let arrowBtn = document.querySelectorAll("#arrowBtn")
 let shrink = document.querySelectorAll("#shrink")
+let shrink1 = document.querySelectorAll("#shrink1")
+
 
 arrowBtn.forEach(function (item, index) {
     item.addEventListener('click', function () {
-        shrink[index].classList.add("line-clamp-3")
-        shrink[index].classList.remove("line-clamp-0")
+        // shrink[index].classList.remove("flex")
+        shrink1[index].classList.toggle('hidden')
+        shrink[index].classList.toggle('hidden')
     })
-    shrink[index].classList.remove("line-clamp-3")
-    shrink[index].classList.add("line-clamp-0")
 })
